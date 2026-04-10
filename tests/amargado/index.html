@@ -6,39 +6,44 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
+
     <title>Amargómetro Supremo</title>
     <meta
       name="description"
       content="Test sarcástico para medir tu nivel de amargura con un amargómetro animado y bastante mala leche."
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Actualiza el parámetro v en cada despliegue para forzar carga de la versión nueva -->
-    <link rel="stylesheet" href="styles.css?v=2026-04-07" />
+
+    <link rel="stylesheet" href="/assets/css/styles.css?v=2026-04-10" />
   </head>
   <body>
     <div class="noise"></div>
+
     <main class="layout">
       <section class="hero card">
         <p class="eyebrow">Diagnóstico emocional no solicitado</p>
         <h1>Amargómetro Supremo</h1>
         <p class="lead">
           Un test gamberro, canalla y con más mala baba que un lunes sin café para descubrir
-          si eres una personita entrañable o un gremlin social con Wi‑Fi.
+          si eres una personita entrañable o un gremlin social con Wi-Fi.
         </p>
 
         <div class="instructions">
           <h2>Instrucciones</h2>
           <p>
             Lee cada situación y responde con un <strong>SÍ</strong>, un <strong>NO</strong> o un
-            <strong>A veces</strong> con total sinceridad. Verás todas las preguntas ya colocadas en orden, una detrás de otra, para que el drama fluya sin esconder nada.
+            <strong>A veces</strong> con total sinceridad. Verás todas las preguntas ya colocadas
+            en orden, una detrás de otra, para que el drama fluya sin esconder nada.
           </p>
           <p>
-            Marca una respuesta y, cuando termines, pulsa el botón de calcular para descubrir tu puntuación exacta, tu categoría de amargura y la explicación oficial de tu caso.
+            Marca una respuesta y, cuando termines, pulsa el botón de calcular para descubrir tu
+            puntuación exacta, tu categoría de amargura y la explicación oficial de tu caso.
           </p>
           <button id="start-test" class="primary-btn" type="button">Iniciar el test</button>
         </div>
@@ -54,25 +59,31 @@
         </div>
 
         <p id="quiz-status" class="quiz-status">
-          Pulsa <strong>Iniciar el test</strong> para saltar a la primera pregunta. Las verás todas en orden justo debajo.
+          Pulsa <strong>Iniciar el test</strong> para saltar a la primera pregunta. Las verás todas
+          en orden justo debajo.
         </p>
+
         <p id="random-banner" class="random-banner" role="alert" hidden>
-          ⚠️ <strong>Dictamen oficial:</strong> has respondido más rápido que un bot con prisa. Huele bastante a respuestas a boleo… y con orgullo.
+          ⚠️ <strong>Dictamen oficial:</strong> has respondido más rápido que un bot con prisa.
+          Huele bastante a respuestas a boleo… y con orgullo.
         </p>
+
         <form id="amargometro-form" class="questions"></form>
+
         <div class="quiz-actions">
           <div id="fast-warning" class="fast-warning" role="alert" hidden>
             <p class="fast-warning-title">⚠️ Respondiste demasiado rápido</p>
             <p class="fast-warning-text">
-              No vamos a calcular la puntuación esta vez. Si quieres conocer tu resultado real, repite el test con más calma.
+              No vamos a calcular la puntuación esta vez. Si quieres conocer tu resultado real,
+              repite el test con más calma.
             </p>
           </div>
+
           <button id="submit-test" class="primary-btn" type="button" disabled>
             Calcular mi puntuación amarga
           </button>
         </div>
       </section>
-
 
       <section class="result card" aria-live="polite">
         <div class="result-header">
@@ -80,7 +91,7 @@
             <p class="eyebrow">Resultado final</p>
             <h2>Tu nivel de amargura certificado</h2>
           </div>
-          <button id="reset-test" class="ghost-btn">Reiniciar el drama</button>
+          <button id="reset-test" class="ghost-btn" type="button">Reiniciar el drama</button>
         </div>
 
         <div class="meter-wrap">
@@ -100,7 +111,9 @@
 
         <div class="result-category">
           <span class="result-category-label">Categoría detectada</span>
-          <strong id="result-category-name" class="result-category-name">Pendiente de diagnóstico</strong>
+          <strong id="result-category-name" class="result-category-name">
+            Pendiente de diagnóstico
+          </strong>
         </div>
 
         <p id="result-title" class="result-title">Responde el test, criatura.</p>
@@ -108,15 +121,41 @@
           Cuando termines, te diremos si eres un rayo de sol o una auditoría con piernas.
         </p>
 
-        <section id="result-affiliate" class="affiliate-section" aria-label="Sección de enlace afiliado de Amazon" hidden>
+        <section
+          id="result-affiliate"
+          class="affiliate-section"
+          aria-label="Sección de enlace afiliado de Amazon"
+          hidden
+        >
           <p class="eyebrow">Recomendación del amargómetro</p>
           <h3>Lectura para amargados profesionales</h3>
-          <p class="affiliate-copy">El amargado: Estudio de campo sobre una especie en expansión, de Doctor Frenillo.</p>
-          <a href="https://www.amazon.es/El-amargado-Estudio-especie-expansi%C3%B3n/dp/B0GVSRFH5P?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MJ8YFKZOVP3C&dib=eyJ2IjoiMSJ9.wPQUapkXFOyuwCmG2fEzVZsIZ9hHc_pXFJVDVfwT29E.CPEH93L9ymuFqg8PGS_iBU76-MMYRtGTa44Yv3qogMo&dib_tag=se&keywords=doctor+frenillo&qid=1775400771&sprefix=doctor+frenillo%2Caps%2C150&sr=8-1&linkCode=ll2&tag=vcastellar-21&linkId=b3688f87e42c777318a84543b9e1110c&ref_=as_li_ss_tl" target="_blank" rel="nofollow sponsored noopener" class="affiliate-product-link affiliate-product-link--book" aria-label="Ver el libro recomendado en Amazon">
-            <img src="https://raw.githubusercontent.com/vcastellar/amargometro/main/images/amargado.jpeg" alt="Portada de El amargado, de Doctor Frenillo" class="affiliate-product-cover" loading="lazy" decoding="async" onerror="if(this.dataset.fallbacks){const paths=this.dataset.fallbacks.split(',');const next=paths.shift();this.dataset.fallbacks=paths.join(',');if(next){this.src=next;return;}}this.onerror=null;this.style.display='none';" data-fallbacks="https://vcastellar.github.io/amargometro/images/amargado.jpeg,/images/amargado.jpeg,images/amargado.jpeg" />
+          <p class="affiliate-copy">
+            El amargado: Estudio de campo sobre una especie en expansión, de Doctor Frenillo.
+          </p>
+
+          <a
+            href="https://www.amazon.es/El-amargado-Estudio-especie-expansi%C3%B3n/dp/B0GVSRFH5P?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MJ8YFKZOVP3C&dib=eyJ2IjoiMSJ9.wPQUapkXFOyuwCmG2fEzVZsIZ9hHc_pXFJVDVfwT29E.CPEH93L9ymuFqg8PGS_iBU76-MMYRtGTa44Yv3qogMo&dib_tag=se&keywords=doctor+frenillo&qid=1775400771&sprefix=doctor+frenillo%2Caps%2C150&sr=8-1&linkCode=ll2&tag=vcastellar-21&linkId=b3688f87e42c777318a84543b9e1110c&ref_=as_li_ss_tl"
+            target="_blank"
+            rel="nofollow sponsored noopener"
+            class="affiliate-product-link affiliate-product-link--book"
+            aria-label="Ver el libro recomendado en Amazon"
+          >
+            <img
+              src="https://raw.githubusercontent.com/vcastellar/amargometro/main/images/amargado.jpeg"
+              alt="Portada de El amargado, de Doctor Frenillo"
+              class="affiliate-product-cover"
+              loading="lazy"
+              decoding="async"
+              onerror="if(this.dataset.fallbacks){const paths=this.dataset.fallbacks.split(',');const next=paths.shift();this.dataset.fallbacks=paths.join(',');if(next){this.src=next;return;}}this.onerror=null;this.style.display='none';"
+              data-fallbacks="https://vcastellar.github.io/amargometro/images/amargado.jpeg,/images/amargado.jpeg,images/amargado.jpeg"
+            />
             <span>📚 Leer en Amazon</span>
           </a>
-           <p class="affiliate-disclaimer">Enlace afiliado de Amazon. En calidad de Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.</p>
+
+          <p class="affiliate-disclaimer">
+            Enlace afiliado de Amazon. En calidad de Afiliado de Amazon, obtengo ingresos por las
+            compras adscritas que cumplen los requisitos aplicables.
+          </p>
         </section>
 
         <div class="share-wrap" aria-label="Compartir resultado">
@@ -151,22 +190,29 @@
       <section class="legal-note card" aria-label="Privacidad y datos">
         <h2>Privacidad y datos</h2>
         <p>
-          Este sitio no solicita registro, no recoge datos personales identificativos y no almacena respuestas del test.
+          Este sitio no solicita registro, no recoge datos personales identificativos y no almacena
+          respuestas del test.
         </p>
         <p>
-          No usamos cookies propias de analítica o publicidad. El hosting (Hostinger) puede generar registros técnicos de acceso (como IP, fecha/hora, URL y agente de usuario) por seguridad y funcionamiento.
+          No usamos cookies propias de analítica o publicidad. El hosting puede generar registros
+          técnicos de acceso por seguridad y funcionamiento.
         </p>
         <p>
-          También usamos Google Search Console para estadísticas de rendimiento en buscadores. Estos servicios pueden tratar datos técnicos según sus políticas.
+          También usamos herramientas de rendimiento en buscadores. Estos servicios pueden tratar
+          datos técnicos según sus políticas.
         </p>
-        <p>
-          No vendemos datos ni realizamos cesiones comerciales de información personal.
-        </p>
+        <p>No vendemos datos ni realizamos cesiones comerciales de información personal.</p>
       </section>
-
     </main>
 
-    <div id="fast-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="fast-modal-title" hidden>
+    <div
+      id="fast-modal"
+      class="modal-backdrop"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="fast-modal-title"
+      hidden
+    >
       <section class="modal-card">
         <h3 id="fast-modal-title">⚠️ Has respondido demasiado rápido</h3>
         <p>
@@ -179,14 +225,14 @@
     </div>
 
     <template id="question-template">
-      <article class="question-card">
+      <article class="question-card" hidden>
         <div class="question-top">
           <span class="question-tag"></span>
         </div>
         <p class="question-text"></p>
         <div class="options">
           <label class="option-pill">
-            <input type="radio" value="sí" />
+            <input type="radio" value="si" />
             <span>SÍ</span>
           </label>
           <label class="option-pill">
@@ -201,6 +247,9 @@
       </article>
     </template>
 
-    <script src="script.js?v=2026-04-07"></script>
+    <script src="/assets/data/amargado.js?v=2026-04-10" defer></script>
+    <script src="/assets/js/app.js?v=2026-04-10" defer></script>
+    <script src="/assets/js/share.js?v=2026-04-10" defer></script>
+    <script src="/assets/js/ui.js?v=2026-04-10" defer></script>
   </body>
 </html>
