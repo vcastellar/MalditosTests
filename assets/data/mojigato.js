@@ -4,125 +4,135 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿Posas encantado cuando alguien propone una foto de grupo sin huir como si cada flash te fuera a quitar un año de vida?',
+      text: '¿En un funeral, si de repente a alguien se le escapa un pedo sonoro y con eco, miras al suelo fingiendo que analizas la veta del mármol?',
       weight: 5,
     },
     {
-      text: '¿Puedes ir al supermercado un sábado por la tarde sin desear que un rayo desintegre a la gente que camina lento?',
-      weight: 8,
-    },
-    {
-      text: 'Si un amigo te cuenta un proyecto con ilusión, ¿evitas listarle inmediatamente los 10 motivos por los que va a fracasar?',
-      weight: 7,
-    },
-    {
-      text: '¿Aceptas un cumplido sin gruñir ni mirar al suelo como si te estuvieran robando el alma?',
-      weight: 4,
-    },
-    {
-      text: 'Alguien te dice "¡Buenos días!" con alegría un lunes a las 8:00 AM. ¿Consigues no desearle una desgracia personal inmediata?',
-      weight: 10,
-    },
-    {
-      text: '¿Eres capaz de ver a una pareja de enamorados en el parque sin calcular mentalmente cuánto tardarán en engañarse el uno al otro?',
-      weight: 7,
-    },
-    {
-      text: '¿Puedes escuchar el éxito de reggaetón del verano sin dar un discurso no solicitado sobre la muerte de la cultura occidental?',
-      weight: 8,
-    },
-    {
-      text: 'Si un niño te sonríe en el transporte público, ¿le devuelves el gesto en lugar de mirar al infinito con cara de "por qué no se callará"?',
+      text: '¿Si te pasan un vídeo de contenido “picante” por error en el grupo de WhatsApp de la familia, decides no contestar, indignado?',
       weight: 6,
     },
     {
-      text: '¿Ves un vídeo de un cachorro y piensas en su ternura antes que en el olor a perro mojado y las facturas del veterinario?',
+      text: '¿Vas por la calle, ves a una pareja dándose el lote y llegas a pensar que igual es un intento de reanimación y te planteas llamar a una ambulancia?',
+      weight: 7,
+    },
+    {
+      text: '¿Recurres al uso de tacos y palabrotas en una conversación normal solo si te martilleas un dedo, y además pides perdón después?',
       weight: 5,
     },
     {
-      text: 'En el supermercado, ¿puedes esperar tu turno sin mirar la nuca del que va delante como si quisieras hacerle explotar la cabeza con la mente?',
-      weight: 9,
-    },
-    {
-      text: '¿Eres capaz de felicitar a alguien sin que tu voz suene como un motor gripado?',
+      text: '¿En una cena, si alguien empieza a contar un chiste verde de los que harían sonrojar a una estatua, te levantas para ir al baño hasta que acabe?',
       weight: 7,
     },
     {
-      text: '¿Crees que es posible que te pase algo bueno hoy sin que sea una trampa del destino para fastidiarte mañana?',
-      weight: 9,
-    },
-    {
-      text: 'Cuando alguien suelta un “todo va a salir bien”, ¿evitas responder con un análisis apocalíptico de 5 minutos?',
+      text: '¿Defiendes la libertad total pero te escandalizas si alguien no usa servilleta?',
       weight: 8,
     },
     {
-      text: '¿Puedes compartir ascensor con alguien demasiado feliz sin sospechar automáticamente que está ocultando algo turbio?',
+      text: '¿Piensas que las proporciones de las estatuas clásicas son “perfectas”?',
+      weight: 8,
+    },
+    {
+      text: '¿Has sentido la necesidad de bajar el volumen cuando en una serie empiezan a gemir… aunque estés solo en casa?',
+      weight: 6,
+    },
+    {
+      text: '¿Crees que no tienes prejuicios, pero en situaciones de presión te brota el “¡Por favor, un poco de respeto!”?',
+      weight: 9,
+    },
+    {
+      text: '¿Si un amigo aparece en una cena formal con una camiseta incómoda o inapropiada, evitas presentarlo a otros por vergüenza?',
       weight: 7,
+    },
+    {
+      text: '¿Has pensado “esto se está yendo de madre” en una conversación que en realidad iba sobre croquetas?',
+      weight: 7,
+    },
+    {
+      text: '¿Si un amigo tuyo aparece en una cena formal con una camiseta con una imagen hiperrealista de una colonoscopia, sientes vergüenza ajena y evitas presentárselo a nadie?',
+      weight: 6,
+    },
+    {
+      text: '¿En el gimnasio, si en las duchas hay un señor de 80 años paseándose totalmente desnudo mientras se seca los pies con el secador de manos común, piensas que “un poco de pudor y decoro no vendrían mal en este centro”?',
+      weight: 8,
+    },
+    {
+      text: '¿Si estás viendo una película con tus padres y aparece una escena de sexo explícito de 5 minutos con gemidos en Dolby Surround, te levantas a la cocina a por algo que no necesitas?',
+      weight: 5,
+    },
+    {
+      text: '¿Si un amigo “graciosillo” te regala un libro de colorear titulado “Mandala-Potorros: Encuentra tu paz interior pintando genitales”, te ríes forzadamente, dices “qué loco estás” y lo guardas en el cajón de los calcetines “por si acaso” (pero con la puerta cerrada con llave)?',
+      weight: 6,
+    },
+    {
+      text: '¿Te incomoda tanto ver a alguien comiendo un plátano de forma sugerente que apartas la mirada automáticamente?',
+      weight: 8,
+    },
+    {
+      text: '¿Alguna vez has dicho algo así como “Es una fresca”?',
+      weight: 8,
+    },
+    {
+      text: '¿Después de hacer este test has pensado “Esto es un poco vulgar, ¿no?”?',
+      weight: 9,
     },
   ],
 
   scoreMap: {
-    si: 0,
+    si: 1,
+    sí: 1,
     a_veces: 0.55,
-    no: 1,
+    no: 0,
   },
 
   resultBands: [
     {
       maxRatio: 0.14,
-      title: 'Alérgico a la sonrisa',
-      category: 'Amargura leve con esperanza',
+      title: 'Liberal de boquilla',
+      category: 'Libertino de sofá',
       description:
-        'Todavía conservas un hilo de humanidad. Te quejas de lo normal, pero sigues siendo el amargado promedio de oficina con margen de rescate.',
+        'Dices que "el cuerpo es natural" y que "hay que ser libre", pero si ves a tu vecino en calzoncillos bajando la basura, llamas al administrador. Tienes un pudor residual que te sale por los poros en cuanto la situación se pone mínimamente "marrana"',
     },
     {
       maxRatio: 0.28,
-      title: 'Aguafiestas ceñudo',
-      category: 'Amargura funcional',
+      title: 'Pudoroso asintomático',
+      category: 'Casto en diferido',
       description:
-        'Tienes la acidez de un yogur caducado. Bufas con elegancia y te incomoda la felicidad ajena, aunque aún logras disimular en reuniones familiares.',
+        'En el fondo te gustaría pintar mandalas para adultos, pero te preocupa que el espíritu de tu abuela te vigile desde el cuadro del pasillo.',
     },
     {
       maxRatio: 0.42,
-      title: 'Sommelier de la queja',
-      category: 'Amargura entrenada',
+      title: 'Hipócrita de guante blanco',
+      category: 'Doble moral deluxe',
       description:
-        'Tu deporte favorito es el suspiro de desprecio. Si ves un arcoíris, buscas dónde está la mancha de aceite antes de admitir que es bonito.',
+        'No eres un santo, pero te encanta que los demás piensen que sí. Te escandalizas en público pero en privado buscas en Google cosas que harían temblar al mismísimo Marqués de Sade. Eres el típico que dice "¡Qué horror!" mientras se pone las gafas para ver mejor el desastre. Tu mojigatería es de postureo, pero el juicio final te pillará con el historial del navegador sin borrar.',
     },
     {
       maxRatio: 0.58,
-      title: 'Bilis Premium',
-      category: 'Amargura seria',
+      title: 'Mojigato de closet',
+      category: 'Guardián del decoro',
       description:
-        'Has hecho de la bilis un arte. No solo estás molesto: diseñas nuevas formas de estarlo y conviertes cualquier comentario alegre en una objeción técnica.',
+        'Vas de moderno por la vida, usas zapatillas de marca y dices "tío" cada tres frases, pero el libro de los potorros te ha provocado un microinfarto.',
     },
     {
       maxRatio: 0.74,
-      title: 'Sultán de la Mala Leche',
-      category: 'Amargura avanzada',
+      title: 'Fetichista de la moral',
+      category: 'Comisario del decoro',
       description:
-        'Tu presencia corta la leche a tres metros. Tienes lista negra mental, criterio agrio y una capacidad admirable para arruinar un “qué buen día hace”.',
+        'Eres un "bienqueda" con un censor interno que trabaja horas extra.',
     },
     {
       maxRatio: 0.89,
-      title: 'Agujero negro',
-      category: 'Amargura extrema',
+      title: 'Censor del mes',
+      category: 'Inspector de la moral',
       description:
-        'Absorbes cualquier rastro de luz o alegría en varios metros a la redonda. El mundo te parece un error de diseño que tú habrías gestionado mejor.',
-    },
-    {
-      maxRatio: 0.99,
-      title: 'Heraldo del Vinagre',
-      category: 'Prejefe de la amargura',
-      description:
-        'Eres una tormenta de bilis con piernas: donde pasas, se marchitan las risas.',
+        '“Eres tan almidonado que si te sientas rápido, te rompes. Tu hábitat natural es una junta de vecinos donde se discute el grosor permitido de las cortinas. Para ti, el desmadre empieza en cuanto alguien sonríe con demasiados dientes.”',
     },
     {
       maxRatio: 1,
-      title: 'General del Mal Fario',
-      category: 'Jefe final de la amargura',
+      title: 'Fósil viviente',
+      category: 'Inquisidor sel siglo XV',
       description:
-        'Eres el jefe final de la amargura. No tienes sangre: tienes vinagre de Módena.',
+        'Eres tan mojigato que pides permiso para desnudarte delante del espejo. Tu nivel de puritanismo es capaz de detener una orgía a tres kilómetros de distancia solo con tu mirada de reprobación. Probablemente creas que el reggaetón es una invocación satánica y que las rodillas descubiertas son pecado. ¡Suéltate un poco, que la vida son dos días y ya llevas uno!',
     },
   ],
 };
