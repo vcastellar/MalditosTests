@@ -71,13 +71,6 @@
         <form id="amargometro-form" class="questions"></form>
 
         <div class="quiz-actions">
-          <div id="fast-warning" class="fast-warning" role="alert" hidden>
-            <p class="fast-warning-title">⚠️ Respondiste demasiado rápido</p>
-            <p class="fast-warning-text">
-              No vamos a calcular la puntuación esta vez. Si quieres conocer tu resultado real,
-              repite el test con más calma.
-            </p>
-          </div>
 
           <button id="submit-test" class="primary-btn" type="button" disabled>
             Calcular mi puntuación amarga
@@ -204,26 +197,6 @@
         <p>No vendemos datos ni realizamos cesiones comerciales de información personal.</p>
       </section>
     </main>
-
-    <div
-      id="fast-modal"
-      class="modal-backdrop"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="fast-modal-title"
-      hidden
-    >
-      <section class="modal-card">
-        <h3 id="fast-modal-title">⚠️ Has respondido demasiado rápido</h3>
-        <p>
-          Hemos detectado respuestas en modo turbo. Para evitar resultados a boleo, esta vez
-          <strong>no vamos a calcular tu puntuación</strong>.
-        </p>
-        <p>Repite el test con más calma y vuelve a pulsar <strong>Calcular puntuación</strong>.</p>
-        <button id="fast-modal-close" class="primary-btn" type="button">Entendido</button>
-      </section>
-    </div>
-
     <template id="question-template">
       <article class="question-card" hidden>
         <div class="question-top">
