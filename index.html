@@ -133,6 +133,27 @@
         transform: translateY(-2px);
         box-shadow: 0 14px 36px rgba(255, 138, 61, 0.42);
       }
+
+      .review {
+        display: grid;
+        gap: 0.9rem;
+      }
+
+      .review p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      .review blockquote {
+        margin: 0.4rem 0 0;
+        padding: 1rem 1.1rem;
+        border-left: 3px solid var(--accent-2);
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 0 12px 12px 0;
+        color: var(--text);
+        font-weight: 500;
+      }
     </style>
   </head>
   <body>
@@ -166,6 +187,36 @@
             </p>
             <a class="btn alt" href="./tests/mojigato/">Hacer test mojigato</a>
           </article>
+        </div>
+      </section>
+
+      <section class="card" aria-label="Reseña del Doctor Frenillo">
+        <p class="eyebrow">Reseña destacada</p>
+        <h2>Doctor Frenillo: alma intelectual de estos tests</h2>
+        <div class="review">
+          <p>
+            El Doctor Frenillo es una autoridad no reconocida internacionalmente en el diagnóstico
+            del comportamiento humano contemporáneo.
+          </p>
+          <p>
+            Tras años de observación clínica no consentida, ha desarrollado un sistema propio de
+            clasificación de algunas de las patologías sociales más persistentes.
+          </p>
+          <p>
+            Sus estudios se han llevado a cabo en entornos de alta densidad humana: redes
+            sociales, oficinas abiertas, tertulias improvisadas y colas administrativas donde la
+            dignidad entra ya debilitada.
+          </p>
+          <p>
+            Ninguna institución académica ha validado sus métodos, pero tampoco ha conseguido
+            desmentirlos sin sufrir parte del problema.
+          </p>
+          <p>
+            El Doctor Frenillo continúa publicando manuales y guías de diagnóstico con la esperanza
+            —cada vez más lejana— de que la humanidad mejore.
+          </p>
+          <p>Mientras tanto, sigue tomando notas.</p>
+          <blockquote>Su lema es: «Si molesta, probablemente sea correcto».</blockquote>
         </div>
       </section>
     </main>
