@@ -1,9 +1,16 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-NAME=$1
+NAME="${1:-}"
 
-mkdir -p tests/$NAME
-touch tests/$NAME/index.html
-touch assets/data/$NAME.js
+if [[ -z "$NAME" ]]; then
+  echo "Uso: $0 <nombre-del-test>"
+  exit 1
+fi
 
-echo "Test $NAME creado 🚀"
+mkdir -p "tests/$NAME"
+mkdir -p "assets/data"
+touch "tests/$NAME/index.html"
+touch "assets/data/$NAME.js"
+
+echo "Test \"$NAME\" creado 🚀"
