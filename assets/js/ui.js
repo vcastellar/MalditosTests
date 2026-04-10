@@ -28,9 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const shareStatus = document.getElementById('share-status');
   const quizStatus = document.getElementById('quiz-status');
   const deviceHint = document.getElementById('device-hint');
-  const fastWarning = document.getElementById('fast-warning');
-  const fastModal = document.getElementById('fast-modal');
-  const fastModalClose = document.getElementById('fast-modal-close');
   const root = document.documentElement;
 
   meterMax.textContent = totalMaxScore;
@@ -45,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let currentDeviceProfile = 'desktop';
   let questionCards = [];
-  let startTime = null;
   let lastCalculatedResult = null;
 
   const smoothBehavior = {
@@ -223,18 +219,6 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Detección de respuestas demasiado rápidas
-    const elapsedSeconds = (Date.now() - startTime) / 1000;
-    const minSeconds = questions.length * 1.5;
-
-    if (elapsedSeconds < minSeconds) {
-      setElementHidden(fastWarning, false);
-      setElementHidden(fastModal, false);
-      return;
-    } else {
-      setElementHidden(fastWarning, true);
-    }
-
     const score = calculateScore(getSelectedValue);
     const band = getResultBand(score);
     const ratio = score / totalMaxScore;
@@ -281,7 +265,6 @@ document.addEventListener('DOMContentLoaded', () => {
       behavior: smoothBehavior[currentDeviceProfile],
     });
 
-    startTime = Date.now();
   }
 
   // --- Eventos ---
@@ -302,7 +285,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (startButton) {
     startButton.addEventListener('click', () => {
-      startTime = Date.now();
       scrollToQuestion(0);
       const firstInput = form.querySelector('input');
       if (firstInput) {
@@ -313,12 +295,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   submitButton.addEventListener('click', calculateResult);
   resetButton.addEventListener('click', resetTest);
-
-  if (fastModalClose) {
-    fastModalClose.addEventListener('click', () => {
-      setElementHidden(fastModal, true);
-    });
-  }
 
   document.querySelectorAll('.share-btn').forEach((button) => {
     button.addEventListener('click', () => {
@@ -344,8 +320,6 @@ document.addEventListener('DOMContentLoaded', () => {
   applyDeviceProfile();
   updateQuestionStates();
   setElementHidden(resultAffiliate, true);
-  startTime = Date.now();
-
   window.addEventListener('resize', applyDeviceProfile, {
     passive: true,
   });
