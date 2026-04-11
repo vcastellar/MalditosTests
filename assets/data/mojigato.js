@@ -28,20 +28,12 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: '¿Piensas que las proporciones de las estatuas clásicas son “perfectas”?',
-      weight: 8,
-    },
-    {
       text: '¿Has sentido la necesidad de bajar el volumen cuando en una serie empiezan a gemir… aunque estés solo en casa?',
       weight: 6,
     },
     {
       text: '¿Crees que no tienes prejuicios, pero en situaciones de presión te brota el “¡Por favor, un poco de respeto!”?',
-      weight: 9,
-    },
-    {
-      text: '¿Si un amigo aparece en una cena formal con una camiseta incómoda o inapropiada, evitas presentarlo a otros por vergüenza?',
-      weight: 7,
+      weight: 10,
     },
     {
       text: '¿Has pensado “esto se está yendo de madre” en una conversación que en realidad iba sobre croquetas?',
@@ -53,11 +45,7 @@ window.TEST_CONFIG = {
     },
     {
       text: '¿En el gimnasio, si en las duchas hay un señor de 80 años paseándose totalmente desnudo mientras se seca los pies con el secador de manos común, piensas que “un poco de pudor y decoro no vendrían mal en este centro”?',
-      weight: 8,
-    },
-    {
-      text: '¿Si estás viendo una película con tus padres y aparece una escena de sexo explícito de 5 minutos con gemidos en Dolby Surround, te levantas a la cocina a por algo que no necesitas?',
-      weight: 5,
+      weight: 9,
     },
     {
       text: '¿Si un amigo “graciosillo” te regala un libro de colorear titulado “Mandala-Potorros: Encuentra tu paz interior pintando genitales”, te ríes forzadamente, dices “qué loco estás” y lo guardas en el cajón de los calcetines “por si acaso” (pero con la puerta cerrada con llave)?',
@@ -68,12 +56,8 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: '¿Alguna vez has dicho algo así como “Es una fresca”?',
-      weight: 8,
-    },
-    {
       text: '¿Después de hacer este test has pensado “Esto es un poco vulgar, ¿no?”?',
-      weight: 9,
+      weight: 10,
     },
   ],
 
