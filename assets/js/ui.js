@@ -22,9 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     'result-category-name'
   );
   const resultAffiliate = document.getElementById('result-affiliate');
-  const resultAffiliateLink = document.querySelector(
-    '#result-affiliate .affiliate-product-link'
-  );
   const shareStatus = document.getElementById('share-status');
   const quizStatus = document.getElementById('quiz-status');
   const deviceHint = document.getElementById('device-hint');
@@ -162,19 +159,15 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function focusResultArea() {
-    const target = scoreline || resultSection;
+    const target = resultSection || scoreline;
 
     if (target) {
       target.scrollIntoView({
         behavior: smoothBehavior[currentDeviceProfile],
         block: 'start',
       });
-    }
-
-    if (resultAffiliateLink) {
-      setTimeout(() => {
-        resultAffiliateLink.focus({ preventScroll: true });
-      }, currentDeviceProfile === 'mobile' ? 500 : 320);
+      target.setAttribute('tabindex', '-1');
+      target.focus({ preventScroll: true });
     }
   }
 
