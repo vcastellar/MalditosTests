@@ -231,84 +231,11 @@ h2 {
   justify-content: flex-end;
 }
 
-.fast-warning {
-  position: absolute;
-  right: 0;
-  bottom: calc(100% + 0.75rem);
-  width: min(100%, 420px);
-  padding: 0.9rem 1rem;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 77, 109, 0.55);
-  background: linear-gradient(135deg, rgba(255, 77, 109, 0.24), rgba(255, 138, 61, 0.17));
-  color: #ffe3d4;
-  box-shadow: 0 10px 25px rgba(255, 77, 109, 0.25);
-}
-
-.fast-warning-title {
-  margin: 0;
-  font-weight: 700;
-}
-
-.fast-warning-text {
-  margin: 0.45rem 0 0;
-  color: #fff2ea;
-  line-height: 1.5;
-}
-
-.modal-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 50;
-  display: grid;
-  place-items: center;
-  padding: 1rem;
-  background: rgba(9, 9, 13, 0.7);
-  backdrop-filter: blur(4px);
-}
-
-.modal-backdrop[hidden] {
-  display: none;
-}
-
-.modal-card {
-  width: min(560px, 100%);
-  padding: 1.25rem;
-  border-radius: 16px;
-  border: 1px solid rgba(255, 77, 109, 0.55);
-  background: linear-gradient(135deg, rgba(255, 77, 109, 0.24), rgba(255, 138, 61, 0.2));
-  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.45);
-}
-
-.modal-card h3 {
-  margin: 0 0 0.6rem;
-  font-size: clamp(1.2rem, 2.5vw, 1.45rem);
-}
-
-.modal-card p {
-  margin: 0 0 0.75rem;
-  line-height: 1.6;
-}
-
-.modal-card .primary-btn {
-  margin-top: 0.6rem;
-}
 
 .quiz-status {
   margin: 0 0 1rem;
   color: var(--muted);
   line-height: 1.6;
-}
-
-.random-banner {
-  margin: 0 0 1rem;
-  padding: 0.9rem 1rem;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 77, 109, 0.55);
-  background: linear-gradient(135deg, rgba(255, 77, 109, 0.22), rgba(255, 138, 61, 0.15));
-  color: #ffe3d4;
-  font-weight: 700;
-  line-height: 1.45;
-  box-shadow: 0 10px 25px rgba(255, 77, 109, 0.2);
 }
 
 .affiliate-section {
@@ -667,12 +594,6 @@ h2 {
 
   .options {
     flex-direction: column;
-  }
-
-  .fast-warning {
-    left: 0;
-    right: 0;
-    width: 100%;
   }
 
   .share-buttons {
