@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const resultCategoryName = document.getElementById(
     'result-category-name'
   );
-  const resultAffiliate = document.getElementById('result-affiliate');
   const shareStatus = document.getElementById('share-status');
   const quizStatus = document.getElementById('quiz-status');
   const deviceHint = document.getElementById('device-hint');
@@ -47,10 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // --- Utilidades ---
-  function setElementHidden(element, hidden) {
-    if (element) element.hidden = hidden;
-  }
-
   function updateShareStatus(message) {
     if (shareStatus) shareStatus.textContent = message;
   }
@@ -207,7 +202,6 @@ document.addEventListener('DOMContentLoaded', () => {
       resultDescription.textContent = `Completa la pregunta ${
         unanswered + 1
       } para que podamos juzgarte con datos.`;
-      setElementHidden(resultAffiliate, true);
       scrollToQuestion(unanswered);
       return;
     }
@@ -229,7 +223,6 @@ document.addEventListener('DOMContentLoaded', () => {
     resultTitle.textContent = band.title;
     resultDescription.textContent = band.description;
 
-    setElementHidden(resultAffiliate, false);
     updateShareStatus('');
     focusResultArea();
 
@@ -249,7 +242,6 @@ document.addEventListener('DOMContentLoaded', () => {
     resultDescription.textContent =
       defaultResultState.description;
 
-    setElementHidden(resultAffiliate, true);
     updateShareStatus('');
     updateQuestionStates();
 
@@ -312,7 +304,6 @@ document.addEventListener('DOMContentLoaded', () => {
   renderQuestions();
   applyDeviceProfile();
   updateQuestionStates();
-  setElementHidden(resultAffiliate, true);
   window.addEventListener('resize', applyDeviceProfile, {
     passive: true,
   });
