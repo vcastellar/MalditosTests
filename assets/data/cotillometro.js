@@ -12,7 +12,7 @@ window.TEST_CONFIG = {
     { text: '¿Cuando pasa algo, te nombran portavoz oficial del grupo sin votar?', weight: 7 },
     { text: '¿Recuerdas quién dijo qué, a qué hora y con qué cara exacta?', weight: 7 },
     { text: '¿Analizas parejas ajenas como jurado de reality en prime time?', weight: 7 },
-    { text: '¿Te entra FOMO si hay “tema” y tú aún no tienes el briefing?', weight: 7 },
+    { text: '¿Te da miedo perderte algo si hay “tema” y tú aún no tienes el resumen?', weight: 7 },
     { text: '¿Abres conversaciones con “yo no quería decir nada, peeero…”?', weight: 7 },
     { text: '¿Tu radar de drama pita antes de que llegue el primer mensaje?', weight: 7 },
     { text: '¿Te dicen que sabes demasiado de vidas que ni cotizan en tu nómina?', weight: 8 },
