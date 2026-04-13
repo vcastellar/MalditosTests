@@ -16,7 +16,7 @@ window.TEST_CONFIG = {
       weight: 7,
     },
     {
-      text: '¿Aceptas un cumplido sin gruñir ni mirar al suelo como si te estuvieran robando el alma?',
+      text: '¿Aceptas un cumplido sin gruñir ni mirar al suelo como si te estuvieran embargando el alma?',
       weight: 4,
     },
     {
@@ -122,7 +122,7 @@ window.TEST_CONFIG = {
       title: 'General del Mal Fario',
       category: 'Jefe final de la amargura',
       description:
-        'Eres el jefe final de la amargura. No tienes sangre: tienes vinagre de Módena.',
+        'Eres el jefe final de la amargura. No tienes sangre: tienes vinagre de Módena reserva y cuchillo entre los dientes.',
     },
   ],
 };

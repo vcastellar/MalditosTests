@@ -12,6 +12,21 @@
       name="keywords"
       content="test de personalidad, tests divertidos, quiz de personalidad, test online gratis, test psicológico divertido, qué tipo de persona soy"
     />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta property="og:title" content="Malditos Tests | Tests de personalidad divertidos y gratis" />
+    <meta
+      property="og:description"
+      content="Haz tests de personalidad online gratis, comparte tus resultados y descubre si eres amargado, cuñado, intensito o procrastinador profesional."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elamargometro.com/" />
+    <meta property="og:locale" content="es_ES" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Malditos Tests | Quiz de personalidad con resultados inmediatos" />
+    <meta
+      name="twitter:description"
+      content="Tests divertidos y gamberros con resultados instantáneos para compartir en redes y WhatsApp."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -200,7 +215,31 @@
       footer a {
         color: var(--accent);
       }
+
+      .seo-copy {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .seo-copy p:last-child {
+        margin-bottom: 0;
+      }
     </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Malditos Tests",
+        "url": "https://elamargometro.com/",
+        "inLanguage": "es",
+        "description": "Web de tests de personalidad divertidos, quizzes online gratis y resultados inmediatos para compartir.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://elamargometro.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
   <body>
     <main class="layout">
@@ -348,6 +387,24 @@
           preguntas frecuentes.
         </p>
         <a class="btn alt" href="./faq.html">Ir a la FAQ de Malditos Tests</a>
+      </section>
+
+      <section class="card seo-copy" aria-label="Información sobre tests de personalidad">
+        <p class="eyebrow">Tests de personalidad online gratis</p>
+        <h2>¿Qué encontrarás en Malditos Tests?</h2>
+        <p>
+          En Malditos Tests publicamos <strong>tests de personalidad divertidos</strong> para que
+          descubras qué tipo de persona eres en minutos. Aquí puedes hacer un
+          <strong>quiz de personalidad online gratis</strong>, obtener resultados inmediatos y
+          compartirlos con amigos para comparar niveles de amargura, intensidad, cotilleo o
+          procrastinación.
+        </p>
+        <p>
+          Nuestros cuestionarios están pensados como entretenimiento: son rápidos, gamberros y con
+          mucha sátira. Si buscas un <strong>test psicológico divertido</strong>, un test tipo
+          “<strong>qué tipo de persona soy</strong>” o simplemente pasar el rato con contenido
+          viral, esta home reúne todos los tests disponibles en un solo sitio.
+        </p>
       </section>
 
       <section class="card" aria-label="Reseña del Doctor Frenillo">
