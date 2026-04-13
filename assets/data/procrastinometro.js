@@ -32,7 +32,7 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: '¿Pospones hasta responder mensajes fáciles porque “ahora no estás en mood”?',
+      text: '¿Pospones hasta responder mensajes fáciles porque “ahora no te apetece”?',
       weight: 7,
     },
     {

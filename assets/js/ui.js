@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const quizStatus = document.getElementById('quiz-status');
   const deviceHint = document.getElementById('device-hint');
   const root = document.documentElement;
+  const mainLayout = document.querySelector('main.layout');
 
   meterMax.textContent = totalMaxScore;
 
@@ -44,6 +45,18 @@ document.addEventListener('DOMContentLoaded', () => {
     mobile: 'auto',
     desktop: 'smooth',
   };
+
+  const relatedTestsCatalog = [
+    { slug: 'amargado', name: 'Amargómetro Supremo', href: '../../tests/amargado/' },
+    { slug: 'agarrado', name: 'Test del Agarrado', href: '../../tests/agarrado/' },
+    { slug: 'intensito', name: 'Test del Intensito', href: '../../tests/intensito/' },
+    { slug: 'procrastinometro', name: 'Procrastinómetro', href: '../../tests/procrastinometro/' },
+    { slug: 'cunadometro', name: 'Cuñadómetro', href: '../../tests/cunadometro/' },
+    { slug: 'mojigato', name: 'Test Mojigato', href: '../../tests/mojigato/' },
+    { slug: 'sabelotodometro', name: 'Sabelotodómetro', href: '../../tests/sabelotodometro/' },
+    { slug: 'haterometro', name: 'Haterómetro', href: '../../tests/haterometro/' },
+    { slug: 'cotillometro', name: 'Cotillómetro', href: '../../tests/cotillometro/' },
+  ];
 
   // --- Utilidades ---
   function updateShareStatus(message) {
@@ -252,6 +265,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
 
+  function injectRelatedTestsSection() {
+    if (!mainLayout || document.querySelector('[data-related-tests]')) return;
+
+    const pathChunks = window.location.pathname.split('/').filter(Boolean);
+    const currentSlug = pathChunks[pathChunks.length - 1] || pathChunks[pathChunks.length - 2];
+    const relatedTests = relatedTestsCatalog.filter((test) => test.slug !== currentSlug).slice(0, 3);
+
+    if (relatedTests.length === 0) return;
+
+    const section = document.createElement('section');
+    section.className = 'extra-tests card related-tests';
+    section.setAttribute('aria-label', 'Tests relacionados');
+    section.dataset.relatedTests = 'true';
+
+    const relatedLinksMarkup = relatedTests
+      .map(
+        (test) =>
+          `<li><a class="related-test-link" href="${test.href}">${test.name}</a></li>`
+      )
+      .join('');
+
+    section.innerHTML = `
+      <p class="eyebrow">Tests relacionados</p>
+      <h2>Si te ha gustado este test, prueba también:</h2>
+      <ul class="related-tests-list">${relatedLinksMarkup}</ul>
+    `;
+
+    const extraTestsCard = mainLayout.querySelector('.extra-tests');
+    if (extraTestsCard) {
+      extraTestsCard.insertAdjacentElement('beforebegin', section);
+    } else {
+      mainLayout.appendChild(section);
+    }
+  }
+
   // --- Eventos ---
   form.addEventListener('change', (event) => {
     const target = event.target;
@@ -304,6 +352,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderQuestions();
   applyDeviceProfile();
   updateQuestionStates();
+  injectRelatedTestsSection();
   window.addEventListener('resize', applyDeviceProfile, {
     passive: true,
   });
