@@ -123,6 +123,22 @@ body {
   box-shadow: 0 14px 36px rgba(255, 138, 61, 0.42);
 }
 
+.related-tests-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.related-test-link {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.related-test-link:hover {
+  color: #ffb86b;
+}
+
 .site-footer {
   text-align: center;
   color: var(--muted);
