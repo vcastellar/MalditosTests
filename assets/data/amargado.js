@@ -4,59 +4,59 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿Posas encantado cuando alguien propone una foto de grupo sin huir como si cada flash te fuera a quitar un año de vida?',
+      text: '¿Cuando alguien te propone una foto de grupo, posas sin poner cara de que te están extirpando algo sin anestesia?',
       weight: 5,
     },
     {
-      text: '¿Puedes ir al supermercado un sábado por la tarde sin desear que un rayo desintegre a la gente que camina lento?',
+      text: '¿Puedes ir al Mercadona un sábado a las 6 de la tarde sin que el tipo del carrito lento te ponga en riesgo de homicidio imprudente?',
       weight: 8,
     },
     {
-      text: 'Si un amigo te cuenta un proyecto con ilusión, ¿evitas listarle inmediatamente los 10 motivos por los que va a fracasar?',
+      text: 'Si un amigo te cuenta su proyecto nuevo con ilusión de cocker spaniel, ¿consigues no hundírselo con una sola frase antes de que acabe la frase?',
       weight: 7,
     },
     {
-      text: '¿Aceptas un cumplido sin gruñir ni mirar al suelo como si te estuvieran robando el alma?',
+      text: '¿Aceptas un cumplido sin mirar al suelo, bufar por la nariz y responder "bueno, tampoco es para tanto"?',
       weight: 4,
     },
     {
-      text: 'Alguien te dice "¡Buenos días!" con alegría un lunes a las 8:00 AM. ¿Consigues no desearle una desgracia personal inmediata?',
+      text: 'Alguien te chilla "¡Buenos díaaaaas!" con una sonrisa de 40 dientes un lunes a las 8:00 AM. ¿Le deseas algo que no sea su desaparición inmediata de la faz de la tierra?',
       weight: 10,
     },
     {
-      text: '¿Eres capaz de ver a una pareja de enamorados en el parque sin calcular mentalmente cuánto tardarán en engañarse el uno al otro?',
+      text: '¿Puedes ver a una pareja dándose la mano en el parque sin calcular mentalmente cuánto les queda antes de odiarse en un juzgado?',
       weight: 7,
     },
     {
-      text: '¿Puedes escuchar el éxito de reggaetón del verano sin dar un discurso no solicitado sobre la muerte de la cultura occidental?',
+      text: '¿Escuchas el hit del verano sin soltar un discurso sobre la muerte de la civilización que dura más que la canción?',
       weight: 8,
     },
     {
-      text: 'Si un niño te sonríe en el transporte público, ¿le devuelves el gesto en lugar de mirar al infinito con cara de "por qué no se callará"?',
+      text: 'Un niño te sonríe en el metro. ¿Le devuelves el gesto en lugar de mirar al infinito con la expresión de quien ha visto demasiado?',
       weight: 6,
     },
     {
-      text: '¿Ves un vídeo de un cachorro y piensas en su ternura antes que en el olor a perro mojado y las facturas del veterinario?',
+      text: '¿Ves un vídeo de un cachorro y lo primero que piensas es en lo tierno que es, y NO en las facturas del veterinario, el olor a perro mojado y los pelos en el sofá?',
       weight: 5,
     },
     {
-      text: 'En el supermercado, ¿puedes esperar tu turno sin mirar la nuca del que va delante como si quisieras hacerle explotar la cabeza con la mente?',
+      text: '¿Puedes esperar en la cola del súper sin taladrar mentalmente la nuca del de delante como si tuvieras superpoderes de desintegración?',
       weight: 9,
     },
     {
-      text: '¿Eres capaz de felicitar a alguien sin que tu voz suene como un motor gripado?',
+      text: '¿Eres capaz de felicitar a alguien con tono humano en lugar de sonar como una lavadora con un ladrillo dentro?',
       weight: 7,
     },
     {
-      text: '¿Crees que es posible que te pase algo bueno hoy sin que sea una trampa del destino para fastidiarte mañana?',
+      text: '¿Crees que hoy puede pasarte algo bueno sin que sea un engaño del universo para pillarte con la guardia baja?',
       weight: 9,
     },
     {
-      text: 'Cuando alguien suelta un “todo va a salir bien”, ¿evitas responder con un análisis apocalíptico de 5 minutos?',
+      text: 'Alguien te dice "todo va a salir bien". ¿No le respondes con un análisis detallado de por qué ese optimismo es estadísticamente insostenible?',
       weight: 8,
     },
     {
-      text: '¿Puedes compartir ascensor con alguien demasiado feliz sin sospechar automáticamente que está ocultando algo turbio?',
+      text: '¿Puedes compartir ascensor con alguien que va a trabajar contento sin sospechar que está yendo a cometer algún delito fiscal?',
       weight: 7,
     },
   ],
@@ -70,59 +70,59 @@ window.TEST_CONFIG = {
   resultBands: [
     {
       maxRatio: 0.14,
-      title: 'Alérgico a la sonrisa',
-      category: 'Amargura leve con esperanza',
+      title: 'Agrio de mínimos',
+      category: 'Amargura residual',
       description:
-        'Todavía conservas un hilo de humanidad. Te quejas de lo normal, pero sigues siendo el amargado promedio de oficina con margen de rescate.',
+        'Sigues siendo humano, aunque por los pelos. Te quejas de lo normal, todavía tienes pulso y en ocasiones hasta sonríes sin que te duela. Hay esperanza. Poca, pero hay.',
     },
     {
       maxRatio: 0.28,
-      title: 'Aguafiestas ceñudo',
+      title: 'Gruñón de diseño',
       category: 'Amargura funcional',
       description:
-        'Tienes la acidez de un yogur caducado. Bufas con elegancia y te incomoda la felicidad ajena, aunque aún logras disimular en reuniones familiares.',
+        'Tienes la acidez justa de un yogur a punto de caducar. Bufas con elegancia, pero aún eres capaz de aguantar una cena familiar sin que nadie llame al 112.',
     },
     {
       maxRatio: 0.42,
       title: 'Sommelier de la queja',
       category: 'Amargura entrenada',
       description:
-        'Tu deporte favorito es el suspiro de desprecio. Si ves un arcoíris, buscas dónde está la mancha de aceite antes de admitir que es bonito.',
+        'Tu deporte favorito es el suspiro de desprecio seguido de una mirada de "esto ya lo sabía yo". Si ves un arcoíris, buscas la nube antes de confirmar que existe.',
     },
     {
       maxRatio: 0.58,
       title: 'Bilis Premium',
       category: 'Amargura seria',
       description:
-        'Has hecho de la bilis un arte. No solo estás molesto: diseñas nuevas formas de estarlo y conviertes cualquier comentario alegre en una objeción técnica.',
+        'Has hecho de la bilis una disciplina artística. No solo estás molesto, es que diseñas nuevas modalidades de malestar y conviertes "¡qué día tan bonito!" en una amenaza velada.',
     },
     {
       maxRatio: 0.74,
       title: 'Sultán de la Mala Leche',
       category: 'Amargura avanzada',
       description:
-        'Tu presencia corta la leche a tres metros. Tienes lista negra mental, criterio agrio y una capacidad admirable para arruinar un “qué buen día hace”.',
+        'Tu presencia agria el ambiente a tres metros de radio. Tienes lista negra mental, criterio de vinagre balsámico y un don especial para transformar "qué buena pinta tiene eso" en un problema filosófico.',
     },
     {
       maxRatio: 0.89,
-      title: 'Agujero negro',
+      title: 'Agujero negro emocional',
       category: 'Amargura extrema',
       description:
-        'Absorbes cualquier rastro de luz o alegría en varios metros a la redonda. El mundo te parece un error de diseño que tú habrías gestionado mejor.',
+        'Absorbes cualquier rastro de alegría en el entorno como un foco industrial aspira polvo. El mundo te parece un error de diseño que tú habrías resuelto con cuatro reuniones y algo de sentido común.',
     },
     {
       maxRatio: 0.99,
       title: 'Heraldo del Vinagre',
       category: 'Prejefe de la amargura',
       description:
-        'Eres una tormenta de bilis con piernas: donde pasas, se marchitan las risas.',
+        'Eres una tormenta de bilis con piernas y WiFi. Donde pasas, se marchitan las plantas, se callan los niños y las palomas se van a otra plaza.',
     },
     {
       maxRatio: 1,
       title: 'General del Mal Fario',
       category: 'Jefe final de la amargura',
       description:
-        'Eres el jefe final de la amargura. No tienes sangre: tienes vinagre de Módena.',
+        'Eres el jefe final de la amargura. No tienes sangre: tienes vinagre de Módena con DOP. Las flores se doblan a tu paso, los memes de gatitos te inducen desprecio y eres capaz de arruinar una pizza con solo mirarla. Enhorabuena, o lo que sea.',
     },
   ],
 };
