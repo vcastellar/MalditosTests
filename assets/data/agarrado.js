@@ -4,59 +4,59 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿Has apagado la luz del pasillo a mitad de camino para ahorrar exactamente un céntimo, aunque termines dándote con la puerta?',
+      text: '¿Has apagado la luz del pasillo a mitad del trayecto para ahorrar exactamente un céntimo, aunque luego te hayas pegado contra la puerta del baño?',
       weight: 7,
     },
     {
-      text: '¿Reutilizas la misma bolsita de té tantas veces que ya solo da agua caliente con recuerdos de sabor?',
+      text: '¿Reutilizas la misma bolsita de té tantas veces que ya solo da agua caliente con nostalgia de infusión?',
       weight: 8,
     },
     {
-      text: '¿Cuando alguien propone pedir comida, abres la nevera y preparas un “picoteo” con sobres sueltos de ketchup y pan duro?',
+      text: '¿Cuando alguien propone pedir a domicilio, tú ya estás en la cocina abriendo la nevera para "tirar de lo que hay" y montarte un festín con dos cuartos de caldo y un poco de arroz del martes?',
       weight: 7,
     },
     {
-      text: '¿Has llegado a caminar 40 minutos para no pagar 1 euro de bus, aunque estuviera lloviendo en horizontal?',
+      text: '¿Has caminado 45 minutos bajo lluvia torrencial para no pagar 1,50€ de autobús y además lo has contado con orgullo en la cena?',
       weight: 6,
     },
     {
-      text: '¿Guardas servilletas, sobres de azúcar y palillos “por si acaso” como si fueras un almacén logístico?',
+      text: '¿Acumulas servilletas de papel, sobrecitos de azúcar, palillos y salsas de ketchup como si prepararas una reserva para el apocalipsis?',
       weight: 9,
     },
     {
-      text: '¿En un bar comparas el precio por mililitro entre caña, jarra y botella antes de decidir qué beber?',
+      text: '¿Antes de pedir en el bar calculas mentalmente el precio por mililitro de la caña, la jarra y la botella, y luego ordenas el más rentable con cara de CEO?',
       weight: 8,
     },
     {
-      text: '¿Has recortado una esponja en dos para que “dure el doble” y presumido de ello?',
+      text: '¿Has cortado una esponja de cocina por la mitad "para que dure el doble" y te has sentido un genio del ahorro doméstico?',
       weight: 7,
     },
     {
-      text: '¿Tu calefacción solo se enciende cuando puedes ver tu propio aliento dentro de casa?',
+      text: '¿Tu calefacción solo se activa cuando puedes ver tu propio aliento dentro de casa y empiezas a notar los dedos de los pies?',
       weight: 6,
     },
     {
-      text: '¿Calculas cuántos vasos salen de cada botella cuando invitas gente, para evitar “despilfarros innecesarios”?',
+      text: '¿Cuando tienes invitados, calculas mentalmente cuántos vasos salen de cada botella para controlar que nadie "se pase de la raya"?',
       weight: 8,
     },
     {
-      text: '¿Has limpiado papel de aluminio usado para volver a utilizarlo como si fuera un tesoro nacional?',
+      text: '¿Has lavado, doblado y guardado papel de aluminio usado como si fuera un bien escaso a proteger para generaciones futuras?',
       weight: 7,
     },
     {
-      text: '¿Si hay envío gratis a partir de cierto importe, prefieres pagar el envío antes que comprar algo “no imprescindible”?',
+      text: '¿Prefieres pagar el envío antes que comprar algo "no estrictamente necesario" para llegar al mínimo, aunque el artículo cueste 2€?',
       weight: 6,
     },
     {
-      text: '¿Te duele físicamente dejar propina aunque el servicio haya sido impecable?',
+      text: '¿Dejar propina te provoca una contractura emocional aunque el camarero te haya tratado como si fueras de la familia?',
       weight: 7,
     },
     {
-      text: '¿Revisas el ticket del súper con lupa por si te han cobrado 3 céntimos de más?',
+      text: '¿Revisas el ticket del supermercado con lupa y ansiedad antes de salir por si hay una diferencia de 4 céntimos en tu contra?',
       weight: 7,
     },
     {
-      text: '¿Después de este test has pensado que hasta responder preguntas gasta batería y deberíamos ir acabando?',
+      text: '¿En algún momento de este test has pensado "cuánta batería está gastando esto" y te ha dado algo por dentro?',
       weight: 7,
     },
   ],
@@ -73,49 +73,49 @@ window.TEST_CONFIG = {
       title: 'Manirroto accidental',
       category: 'Ahorro simbólico',
       description:
-        'Intentas ahorrar, pero te puede la comodidad. Eres más de redondear para arriba que de contar céntimos.',
+        'Intentas ahorrar, pero te puede la comodidad y el capricho. Eres más de redondear para arriba que de auditar el ticket. Que aproveche.',
     },
     {
       maxRatio: 0.28,
       title: 'Ajustado con dignidad',
       category: 'Ahorro moderado',
       description:
-        'Controlas gastos sin perder la cabeza. Todavía recuerdas que vivir también incluye pequeños caprichos.',
+        'Controlas gastos sin perder la cabeza del todo. Todavía recuerdas que vivir también implica pagar algo de vez en cuando sin llorar.',
     },
     {
       maxRatio: 0.42,
       title: 'Contable del céntimo',
       category: 'Ahorro metódico',
       description:
-        'Tu relación con el dinero es intensa y organizada. Tienes hojas mentales de cálculo hasta para comprar chicles.',
+        'Tu relación con el dinero es íntima, intensa y a veces inquietante. Tienes hojas mentales de cálculo hasta para comprar chicles en el quiosco.',
     },
     {
       maxRatio: 0.58,
       title: 'Inspector del ticket',
       category: 'Ahorro serio',
       description:
-        'No se te escapa ni una oferta. Si hubiera olimpiadas de cupones, tendrías medalla.',
+        'No se te escapa ni una oferta ni un cargo de más. Si hubiera unas olimpiadas del cupón y el descuento, ya estarías en el podio con la medalla de los 3€ ahorrados.',
     },
     {
       maxRatio: 0.74,
       title: 'Ninja del descuento',
       category: 'Ahorro extremo',
       description:
-        'Conoces más promos que la propia tienda. Vives en modo cazador de gangas permanente.',
+        'Conoces las promociones mejor que los propios empleados de la tienda. Vives en modo caza-gangas permanente y lo disfrutas con un placer que no compartes con nadie.',
     },
     {
       maxRatio: 0.89,
       title: 'Señor/a del reciclaje infinito',
       category: 'Ahorro épico',
       description:
-        'Reutilizas todo lo reutilizable y lo no reutilizable también. Cada objeto tiene al menos tres vidas contigo.',
+        'Reutilizas todo lo reutilizable y también lo que no lo es. Cada objeto tiene contigo al menos tres vidas y un plan de jubilación. La esponja en dos trozos es solo el comienzo.',
     },
     {
       maxRatio: 1,
       title: 'El Agarrado Legendario',
       category: 'Ahorro apocalíptico',
       description:
-        'Has llevado el ahorro a una dimensión desconocida. Doblas las bolsas del súper con precisión quirúrgica y podrías negociar el precio del aire.',
+        'Has llevado el ahorro a una dimensión donde ya no hay retorno. Doblas las bolsas del súper con precisión de origami, negocias el precio del aire y encuentras un truco para ahorrar hasta cuando duermes. Eres una leyenda. Una leyenda que nadie invita a pagar la ronda.',
     },
   ],
 };

@@ -4,59 +4,59 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿Cuando te dejan en visto 20 minutos, montas en tu cabeza una trilogía de traición, abandono y redención con banda sonora incluida?',
+      text: '¿Cuando te dejan en visto 20 minutos, en tu cabeza ya hay una trilogía de traición, abandono y final alternativo con banda sonora de Hans Zimmer?',
       weight: 7,
     },
     {
-      text: '¿Has escrito “tranqui, todo bien” mientras llorabas como protagonista de final de temporada?',
+      text: '¿Has escrito "tranquilo, no pasa nada" mientras llorabas de un modo que haría avergonzar a los protagonistas de una telenovela venezolana?',
       weight: 7,
     },
     {
-      text: '¿Si alguien tarda en responder, refrescas el chat cada 12 segundos como si estuvieras vigilando la bolsa?',
+      text: '¿Si alguien tarda en contestar, refrescas el chat cada 10 segundos como si estuvieras siguiendo la cotización del bitcoin en directo?',
       weight: 8,
     },
     {
-      text: '¿Convierte tu cerebro un “luego te llamo” en una crisis diplomática internacional?',
+      text: '¿Tu cerebro convierte un "luego te llamo" en una crisis diplomática de nivel ONU con delegaciones y portavoces?',
       weight: 6,
     },
     {
-      text: '¿Has ensayado discusiones imaginarias en la ducha ganando por KO técnico con frases que jamás dirás?',
+      text: '¿Has ensayado discusiones imaginarias en la ducha y has ganado por KO técnico con frases brillantes que nunca llegarás a pronunciar en la vida real?',
       weight: 8,
     },
     {
-      text: '¿Te afecta tanto una canción triste que cancelas planes para mirar al techo y sufrir con dignidad?',
+      text: '¿Una canción triste puede hacer que canceles planes, te tumbes en el suelo y te permitas sufrir con absoluta y solemne dignidad durante horas?',
       weight: 7,
     },
     {
-      text: '¿En una cita, analizas cada gesto como si fueras criminólogo forense del lenguaje corporal?',
+      text: '¿Analizas cada microexpresión en una cita como si fueras criminólogo forense especializado en lenguaje corporal y miradas evasivas?',
       weight: 7,
     },
     {
-      text: '¿Has mandado un audio de 4 minutos para explicar algo que cabía en “ok”?',
+      text: '¿Has mandado un audio de 6 minutos para explicar algo que cabía perfectamente en un solo emoji?',
       weight: 8,
     },
     {
-      text: '¿Tu frase “me da igual” suele venir acompañada de un monólogo de 15 minutos?',
+      text: '¿Cuando dices "me da absolutamente igual" suele seguirle un monólogo de 20 minutos que deja claro que no te da nada igual?',
       weight: 6,
     },
     {
-      text: '¿Sientes que cualquier conflicto menor merece iluminación dramática, violines y lluvia de fondo?',
+      text: '¿Crees que cualquier conflicto menor merece iluminación dramática, violines en directo y lluvia artificial de fondo?',
       weight: 7,
     },
     {
-      text: '¿Te inventas escenarios catastróficos antes de dormir y luego te sorprende no descansar?',
+      text: '¿Te inventas escenarios catastrofistas antes de dormir y luego te sorprende no haber descansado nada?',
       weight: 7,
     },
     {
-      text: '¿Has releído conversaciones antiguas para encontrar “ese tono raro” que confirma tu teoría?',
+      text: '¿Has leído conversaciones de hace tres años buscando "ese tono raro" que confirme la teoría que ya tenías antes de leerlas?',
       weight: 8,
     },
     {
-      text: '¿Cuando alguien dice “tenemos que hablar”, tu alma sale del cuerpo y vuelve con un PowerPoint de daños?',
+      text: '¿Cuando alguien te dice "tenemos que hablar", tu alma abandona el cuerpo, saca un PowerPoint con escenarios de daño y pide turno para exponer?',
       weight: 7,
     },
     {
-      text: '¿Si todo va bien, te pones nervioso porque seguro viene un giro de guion en el peor momento?',
+      text: '¿Si todo va bien un tiempo, te pones nervioso porque seguro que el universo está cargando un giro de guion especialmente cruel para pillarte desprevenido?',
       weight: 7,
     },
   ],
@@ -73,49 +73,49 @@ window.TEST_CONFIG = {
       title: 'Zen de bolsillo',
       category: 'Intensidad decorativa',
       description:
-        'Gestionas tus emociones con bastante elegancia. Drama hay, pero en versión mini y con subtítulos.',
+        'Gestionas tus emociones con una elegancia que resulta casi sospechosa. Drama hay, pero en versión micro y con subtítulos. No eres normal, pero al menos no das miedo.',
     },
     {
       maxRatio: 0.28,
       title: 'Suspiro premium',
       category: 'Intensidad leve',
       description:
-        'Te vienes arriba a ratos, pero aún distingues una señal real de una película mental.',
+        'Te vienes arriba a ratos, pero todavía distingues entre una señal real y una película que te estás montando en la cabeza solo. Por ahora.',
     },
     {
       maxRatio: 0.42,
       title: 'Montajista emocional',
       category: 'Intensidad en ascenso',
       description:
-        'Tu cabeza ya edita escenas con música épica. Aún hay control, pero los créditos empiezan a subir.',
+        'Tu cabeza ya edita escenas con música épica y corte cinematográfico. Aún tienes algo de control, pero los créditos empiezan a subir y el director ejecutivo eres tú solo.',
     },
     {
       maxRatio: 0.58,
       title: 'Director del melodrama',
       category: 'Intensidad seria',
       description:
-        'Conviertes lo cotidiano en evento emocional. No improvisas: produces drama en alta definición.',
+        'Conviertes lo cotidiano en un evento emocional con presupuesto. No improvisas: produces drama en alta definición, con extras y banda sonora en directo.',
     },
     {
       maxRatio: 0.74,
-      title: 'Volcán con Wi-Fi',
+      title: 'Volcán con WhatsApp',
       category: 'Intensidad alta',
       description:
-        'Sientes mucho, fuerte y rápido. Si alguien te dice “relájate”, probablemente empeora la situación.',
+        'Sientes mucho, fuerte, rápido y con subtexto. Si alguien te dice "relájate", esa persona ha cometido el peor error de su vida y tú ya estás preparando la respuesta.',
     },
     {
       maxRatio: 0.89,
       title: 'Ópera en carne viva',
       category: 'Intensidad extrema',
       description:
-        'Cada conversación parece un clímax. Tus reacciones tienen más capas que una cebolla con traumas.',
+        'Cada conversación tuya tiene potencial de clímax dramático. Tus reacciones tienen más capas que una cebolla que ha ido a terapia diez años y aún no ha procesado nada.',
     },
     {
       maxRatio: 1,
       title: 'El Intensito Supremo',
       category: 'Jefe final del drama',
       description:
-        'Vives cada interacción como si fuera el último capítulo de una telenovela mal iluminada. Eres pasión, tormenta y notificación en mayúsculas.',
+        'Vives cada interacción como si fuera el episodio final de una serie que ya lleva demasiadas temporadas. Eres pasión, tormenta y notificación permanente en mayúsculas. Quererte es una experiencia de alto riesgo emocional y todo el mundo lo sabe.',
     },
   ],
 };
