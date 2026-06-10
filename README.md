@@ -1,8 +1,7 @@
 # MalditosTests
 repositorio de tests gamberros
 
-malditostests.com
-
+https://malditostests.com
 ## Uso rápido
 
 Script para crear la estructura base de un test:
