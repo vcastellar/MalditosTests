@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vcastellar.github.io/MalditosTests/sitemap.xml

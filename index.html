@@ -10,8 +10,72 @@
     />
     <meta
       name="keywords"
-      content="test de personalidad, tests divertidos, quiz de personalidad, test online gratis, test psicológico divertido, qué tipo de persona soy"
+      content="test de personalidad, tests divertidos, quiz de personalidad, test online gratis, test psicológico divertido, qué tipo de persona soy, doctor frenillo"
     />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Doctor Frenillo" />
+    <meta name="theme-color" content="#0f0f14" />
+    <link rel="canonical" href="https://vcastellar.github.io/MalditosTests/" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Malditos Tests" />
+    <meta property="og:title" content="Malditos Tests | Tests de personalidad y quizzes divertidos gratis" />
+    <meta
+      property="og:description"
+      content="La colección de tests de personalidad más gamberra de Internet: Amargómetro, Cuñadómetro, Procrastinómetro y más. Resultados inmediatos, gratis y para compartir."
+    />
+    <meta property="og:url" content="https://vcastellar.github.io/MalditosTests/" />
+    <meta property="og:image" content="https://vcastellar.github.io/MalditosTests/images/amargado.jpeg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Malditos Tests | Tests de personalidad gamberros y gratis" />
+    <meta
+      name="twitter:description"
+      content="Descubre qué clase de criatura eres con los tests del Doctor Frenillo. Gratis, inmediatos y sin piedad."
+    />
+    <meta name="twitter:image" content="https://vcastellar.github.io/MalditosTests/images/amargado.jpeg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "Malditos Tests",
+            "url": "https://vcastellar.github.io/MalditosTests/",
+            "inLanguage": "es",
+            "description": "Tests de personalidad gamberros y quizzes divertidos online gratis, con resultado inmediato."
+          },
+          {
+            "@type": "Person",
+            "name": "Doctor Frenillo",
+            "description": "Autor satírico de manuales de diagnóstico del comportamiento humano contemporáneo.",
+            "url": "https://www.amazon.es/stores/author/B0GVRCPN54"
+          },
+          {
+            "@type": "ItemList",
+            "name": "Tests de personalidad de Malditos Tests",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Amargómetro Supremo", "url": "https://vcastellar.github.io/MalditosTests/tests/amargado/" },
+              { "@type": "ListItem", "position": 2, "name": "Test del Agarrado", "url": "https://vcastellar.github.io/MalditosTests/tests/agarrado/" },
+              { "@type": "ListItem", "position": 3, "name": "Test del Intensito", "url": "https://vcastellar.github.io/MalditosTests/tests/intensito/" },
+              { "@type": "ListItem", "position": 4, "name": "Procrastinómetro", "url": "https://vcastellar.github.io/MalditosTests/tests/procrastinometro/" },
+              { "@type": "ListItem", "position": 5, "name": "Cuñadómetro", "url": "https://vcastellar.github.io/MalditosTests/tests/cunadometro/" },
+              { "@type": "ListItem", "position": 6, "name": "Test Mojigato", "url": "https://vcastellar.github.io/MalditosTests/tests/mojigato/" },
+              { "@type": "ListItem", "position": 7, "name": "Sabelotodómetro", "url": "https://vcastellar.github.io/MalditosTests/tests/sabelotodometro/" },
+              { "@type": "ListItem", "position": 8, "name": "Haterómetro", "url": "https://vcastellar.github.io/MalditosTests/tests/haterometro/" },
+              { "@type": "ListItem", "position": 9, "name": "Cotillómetro", "url": "https://vcastellar.github.io/MalditosTests/tests/cotillometro/" }
+            ]
+          }
+        ]
+      }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -121,6 +185,18 @@
         padding: 1rem;
         display: grid;
         gap: 0.8rem;
+        transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+      }
+
+      .test-item:hover {
+        transform: translateY(-4px);
+        border-color: rgba(255, 138, 61, 0.45);
+        background: rgba(255, 138, 61, 0.06);
+      }
+
+      .test-item h3 {
+        margin: 0;
+        font-size: 1.15rem;
       }
 
       .test-item p {
@@ -192,13 +268,42 @@
         font-weight: 500;
       }
 
+      .amazon-cta {
+        margin-top: 1.2rem;
+        padding: 1.1rem 1.2rem;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 77, 109, 0.4);
+        background: rgba(255, 77, 109, 0.08);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.9rem;
+      }
+
+      .amazon-cta p {
+        margin: 0;
+        color: var(--text);
+        font-weight: 500;
+        max-width: 46ch;
+      }
+
       footer {
         text-align: center;
         color: var(--muted);
+        padding: 0 1rem 2rem;
       }
 
       footer a {
         color: var(--accent);
+      }
+
+      .privacy-note {
+        font-size: 0.85rem;
+        max-width: 70ch;
+        margin: 0.6rem auto 0;
+        opacity: 0.8;
+        line-height: 1.5;
       }
     </style>
   </head>
@@ -377,6 +482,20 @@
           </p>
           <p>Mientras tanto, sigue tomando notas.</p>
           <blockquote>Su lema es: «Si molesta, probablemente sea correcto».</blockquote>
+          <div class="amazon-cta">
+            <p>
+              ¿Te has quedado con ganas de más diagnóstico no solicitado? Los manuales del Doctor
+              Frenillo están disponibles en Amazon.
+            </p>
+            <a
+              class="btn alt"
+              href="https://www.amazon.es/stores/author/B0GVRCPN54"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver sus libros en Amazon →
+            </a>
+          </div>
         </div>
       </section>
     </main>
@@ -386,6 +505,11 @@
         <a href="/legal.html">Aviso legal y política de privacidad</a> |
         <a href="/faq.html">FAQ</a> |
         <a href="mailto:vic.sebastia@outlook.es">Contacto</a>
+      </p>
+      <p class="privacy-note">
+        Esta web no almacena cookies ni identifica al usuario de ninguna forma. No obstante, el
+        proveedor de hosting (Hostinger) puede recabar automáticamente datos técnicos de
+        navegación, como la dirección IP, con fines de funcionamiento y seguridad.
       </p>
     </footer>
   </body>
