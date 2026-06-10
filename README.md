@@ -1,7 +1,7 @@
 # MalditosTests
 repositorio de tests gamberros
 
-https://vcastellar.github.io/MalditosTests/
+malditostests.com
 
 ## Uso rápido
 
