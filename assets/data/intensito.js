@@ -4,59 +4,59 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿Cuando te dejan en visto 20 minutos, en tu cabeza ya hay una trilogía de traición, abandono y final alternativo con banda sonora de Hans Zimmer?',
+      text: 'Te dejan en visto 20 minutos. ¿En tu cabeza ya hay rodada una trilogía de traición, funeral simbólico y final alternativo con banda sonora de Hans Zimmer y tú llorando en la premiere?',
       weight: 7,
     },
     {
-      text: '¿Has escrito "tranquilo, no pasa nada" mientras llorabas de un modo que haría avergonzar a los protagonistas de una telenovela venezolana?',
+      text: '¿Has escrito "tranqui, no pasa nada jaja" mientras llorabas en posición fetal con una intensidad que haría dimitir por vergüenza al elenco completo de una telenovela venezolana?',
       weight: 7,
     },
     {
-      text: '¿Si alguien tarda en contestar, refrescas el chat cada 10 segundos como si estuvieras siguiendo la cotización del bitcoin en directo?',
+      text: '¿Refrescas el chat cada 10 segundos cuando no te contestan, como un bróker desquiciado viendo desplomarse el bitcoin, sabiendo que el "escribiendo..." es tu única razón de vivir?',
       weight: 8,
     },
     {
-      text: '¿Tu cerebro convierte un "luego te llamo" en una crisis diplomática de nivel ONU con delegaciones y portavoces?',
+      text: '¿Tu cerebro convierte un inocente "luego te llamo" en una crisis diplomática de nivel ONU, con cascos azules, portavoces, rueda de prensa y sanciones económicas a tu propia autoestima?',
       weight: 6,
     },
     {
-      text: '¿Has ensayado discusiones imaginarias en la ducha y has ganado por KO técnico con frases brillantes que nunca llegarás a pronunciar en la vida real?',
+      text: '¿Has ganado en la ducha discusiones imaginarias por KO técnico, con réplicas tan brillantes que mereces un Goya, sabiendo que en la vida real dirás "ah, vale, perdona"?',
       weight: 8,
     },
     {
-      text: '¿Una canción triste puede hacer que canceles planes, te tumbes en el suelo y te permitas sufrir con absoluta y solemne dignidad durante horas?',
+      text: '¿Una canción triste puede hacerte cancelar planes, apagar las luces, tumbarte en el suelo del salón y sufrir durante horas con la solemnidad litúrgica de un funeral de Estado?',
       weight: 7,
     },
     {
-      text: '¿Analizas cada microexpresión en una cita como si fueras criminólogo forense especializado en lenguaje corporal y miradas evasivas?',
+      text: '¿En una cita analizas cada microexpresión, parpadeo y pausa como un criminólogo forense con pizarra de corcho, hilos rojos y fotos de sospechosos en el salón de tu cabeza?',
       weight: 7,
     },
     {
-      text: '¿Has mandado un audio de 6 minutos para explicar algo que cabía perfectamente en un solo emoji?',
+      text: '¿Has mandado un audio de 6 minutos, con introducción, nudo, desenlace y epílogo, para explicar algo que cabía holgadamente en un pulgar arriba?',
       weight: 8,
     },
     {
-      text: '¿Cuando dices "me da absolutamente igual" suele seguirle un monólogo de 20 minutos que deja claro que no te da nada igual?',
+      text: 'Cuando dices "me da absolutamente igual", ¿le sigue un monólogo de 20 minutos con notas a pie de página que demuestra científicamente que jamás nada te ha dado menos igual?',
       weight: 6,
     },
     {
-      text: '¿Crees que cualquier conflicto menor merece iluminación dramática, violines en directo y lluvia artificial de fondo?',
+      text: '¿Sientes que cualquier conflicto menor, tipo "han movido tu taza en la oficina", merece iluminación dramática, cuarteto de cuerda en directo y lluvia artificial cayendo solo sobre ti?',
       weight: 7,
     },
     {
-      text: '¿Te inventas escenarios catastrofistas antes de dormir y luego te sorprende no haber descansado nada?',
+      text: '¿Te montas escenarios apocalípticos a las 3 de la madrugada, los vives con sudor frío y todo, y luego te sorprende sinceramente amanecer con cara de superviviente de naufragio?',
       weight: 7,
     },
     {
-      text: '¿Has leído conversaciones de hace tres años buscando "ese tono raro" que confirme la teoría que ya tenías antes de leerlas?',
+      text: '¿Has hecho arqueología en chats de hace tres años buscando "ese tono raro", con capturas y subrayador, para confirmar la teoría conspiranoica que ya tenías sentenciada de antemano?',
       weight: 8,
     },
     {
-      text: '¿Cuando alguien te dice "tenemos que hablar", tu alma abandona el cuerpo, saca un PowerPoint con escenarios de daño y pide turno para exponer?',
+      text: 'Te dicen "tenemos que hablar". ¿Tu alma abandona el cuerpo, redacta testamento, prepara un PowerPoint con 14 escenarios de catástrofe y pide turno de réplica antes de saber el tema?',
       weight: 7,
     },
     {
-      text: '¿Si todo va bien un tiempo, te pones nervioso porque seguro que el universo está cargando un giro de guion especialmente cruel para pillarte desprevenido?',
+      text: '¿Cuando todo va sospechosamente bien durante dos semanas, entras en pánico porque está claro que el universo está cargando un giro de guion cruelísimo, y tú sin ensayar tu escena?',
       weight: 7,
     },
   ],

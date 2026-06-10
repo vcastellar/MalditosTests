@@ -4,59 +4,59 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿Has apagado la luz del pasillo a mitad del trayecto para ahorrar exactamente un céntimo, aunque luego te hayas pegado contra la puerta del baño?',
+      text: '¿Has apagado la luz del pasillo a mitad de trayecto para ahorrar un céntimo, te has abierto la ceja contra el marco de la puerta y aun así has pensado "ha merecido la pena"?',
       weight: 7,
     },
     {
-      text: '¿Reutilizas la misma bolsita de té tantas veces que ya solo da agua caliente con nostalgia de infusión?',
+      text: '¿Tu bolsita de té lleva tantas reutilizaciones que ya no es una infusión, es agua caliente con trauma generacional y un vago recuerdo de Sri Lanka?',
       weight: 8,
     },
     {
-      text: '¿Cuando alguien propone pedir a domicilio, tú ya estás en la cocina abriendo la nevera para "tirar de lo que hay" y montarte un festín con dos cuartos de caldo y un poco de arroz del martes?',
+      text: 'Alguien propone pedir comida a domicilio y tú ya estás exhumando de la nevera medio caldo del martes, tres aceitunas huérfanas y un yogur caducado "de fecha, no de espíritu". ¿Te suena?',
       weight: 7,
     },
     {
-      text: '¿Has caminado 45 minutos bajo lluvia torrencial para no pagar 1,50€ de autobús y además lo has contado con orgullo en la cena?',
+      text: '¿Has cruzado la ciudad andando 45 minutos bajo un diluvio bíblico para no pagar 1,50€ de bus, has pillado una pulmonía y aun así lo has contado en la cena como una gesta militar?',
       weight: 6,
     },
     {
-      text: '¿Acumulas servilletas de papel, sobrecitos de azúcar, palillos y salsas de ketchup como si prepararas una reserva para el apocalipsis?',
+      text: '¿Tu cajón de la cocina es un búnker de servilletas, sobres de azúcar, palillos y ketchups robados con el que podrías abastecer a un país pequeño durante una guerra nuclear?',
       weight: 9,
     },
     {
-      text: '¿Antes de pedir en el bar calculas mentalmente el precio por mililitro de la caña, la jarra y la botella, y luego ordenas el más rentable con cara de CEO?',
+      text: '¿Antes de pedir en el bar haces una auditoría mental del precio por mililitro de caña, jarra y botella, y anuncias el resultado con la solemnidad de un CEO presentando resultados trimestrales?',
       weight: 8,
     },
     {
-      text: '¿Has cortado una esponja de cocina por la mitad "para que dure el doble" y te has sentido un genio del ahorro doméstico?',
+      text: '¿Has partido una esponja por la mitad "para que dure el doble", luego has partido las mitades, y ahora friegas con un confeti amarillo mientras te sientes Warren Buffett?',
       weight: 7,
     },
     {
-      text: '¿Tu calefacción solo se activa cuando puedes ver tu propio aliento dentro de casa y empiezas a notar los dedos de los pies?',
+      text: '¿Tu calefacción solo se enciende cuando ves tu propio aliento dentro del salón, los pingüinos piden asilo en tu cocina y tu familia firma documentos con manoplas?',
       weight: 6,
     },
     {
-      text: '¿Cuando tienes invitados, calculas mentalmente cuántos vasos salen de cada botella para controlar que nadie "se pase de la raya"?',
+      text: 'Cuando tienes invitados, ¿vigilas la botella como un halcón con Excel mental, contando vasos servidos y fichando al que repite como si fuera un atraco a mano armada?',
       weight: 8,
     },
     {
-      text: '¿Has lavado, doblado y guardado papel de aluminio usado como si fuera un bien escaso a proteger para generaciones futuras?',
+      text: '¿Has lavado, secado, planchado y archivado papel de aluminio usado como si fuera un pergamino del Mar Muerto que debes legar a tus nietos en testamento notarial?',
       weight: 7,
     },
     {
-      text: '¿Prefieres pagar el envío antes que comprar algo "no estrictamente necesario" para llegar al mínimo, aunque el artículo cueste 2€?',
+      text: '¿Has pasado 40 minutos buscando qué meter en el carrito para librarte de 2,99€ de gastos de envío, valorando tu hora de vida exactamente en cero euros?',
       weight: 6,
     },
     {
-      text: '¿Dejar propina te provoca una contractura emocional aunque el camarero te haya tratado como si fueras de la familia?',
+      text: '¿Dejar propina te provoca un microinfarto espiritual aunque el camarero te haya tratado mejor que tu propia madre y te haya reído los chistes malos?',
       weight: 7,
     },
     {
-      text: '¿Revisas el ticket del supermercado con lupa y ansiedad antes de salir por si hay una diferencia de 4 céntimos en tu contra?',
+      text: '¿Repasas el ticket del súper ahí mismo, bloqueando la salida, con la intensidad de un perito judicial, por si te han metido 4 céntimos de más en las zanahorias?',
       weight: 7,
     },
     {
-      text: '¿En algún momento de este test has pensado "cuánta batería está gastando esto" y te ha dado algo por dentro?',
+      text: 'Sé sincero: ¿en algún momento de este test has pensado "cuánta batería y cuántos datos me está fundiendo esto" y has notado un pinchazo en el alma?',
       weight: 7,
     },
   ],
