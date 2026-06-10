@@ -1,6 +1,6 @@
 // /assets/data/haterometro.js
 window.TEST_CONFIG = {
-  testUrl: 'https://elamargometro.com',
+  testUrl: window.location.href,
 
   questions: [
     { text: '¿Le encontrarías el "pero" al descubrimiento del teletransporte porque la rueda de prensa empezó tres minutos tarde?', weight: 7 },

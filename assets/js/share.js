@@ -36,7 +36,10 @@
   function buildShareText() {
     if (!lastResult) return '';
 
-    return `Mi resultado en el Amargómetro Supremo: ${lastResult.title} (${lastResult.category}) con ${lastResult.score}/${totalMaxScore} puntos. Haz el test aquí: ${testUrl}`;
+    const heading = document.querySelector('h1');
+    const testName = heading ? heading.textContent.trim() : 'Malditos Tests';
+
+    return `Mi resultado en ${testName}: ${lastResult.title} (${lastResult.category}) con ${lastResult.score}/${totalMaxScore} puntos. Haz el test aquí: ${testUrl}`;
   }
 
   /**

@@ -1,6 +1,6 @@
 // /assets/data/intensito.js
 window.TEST_CONFIG = {
-  testUrl: 'https://elamargometro.com',
+  testUrl: window.location.href,
 
   questions: [
     {

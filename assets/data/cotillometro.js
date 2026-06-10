@@ -1,6 +1,6 @@
 // /assets/data/cotillometro.js
 window.TEST_CONFIG = {
-  testUrl: 'https://elamargometro.com',
+  testUrl: window.location.href,
 
   questions: [
     { text: '¿Te enteras de los divorcios antes que los abogados, los suegros y, en dos ocasiones documentadas, los propios cónyuges?', weight: 7 },

@@ -1,6 +1,6 @@
 // /assets/data/sabelotodometro.js
 window.TEST_CONFIG = {
-  testUrl: 'https://elamargometro.com',
+  testUrl: window.location.href,
 
   questions: [
     { text: '¿Arrancas frases con "de hecho..." con tanta frecuencia que tus amigos ya lo oyen en sueños, como un acúfeno con opiniones?', weight: 7 },
