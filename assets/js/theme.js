@@ -15,9 +15,8 @@
   function currentTheme() {
     var saved = stored();
     if (saved === 'light' || saved === 'dark') return saved;
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches
-      ? 'light'
-      : 'dark';
+    // Por defecto, tema claro (el usuario puede cambiarlo con el conmutador)
+    return 'light';
   }
 
   function apply(theme, btn) {
