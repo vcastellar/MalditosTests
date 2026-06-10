@@ -4,59 +4,59 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿En un funeral, si a alguien se le escapa un pedo sonoro, reverberante y con eco en la capilla, apartas los ojos y estudias la veta del mármol del suelo con intensidad académica?',
+      text: '¿En una sala de espera en silencio absoluto, si a alguien se le escapa un pedo con reverberación de auditorio sinfónico, tú te pones a estudiar la veta del suelo con tal intensidad que parece que vas a doctorarte en geología?',
       weight: 5,
     },
     {
-      text: '¿Si por error llega un vídeo de contenido "picante" al grupo de WhatsApp de la familia, decides no contestar, cierras el teléfono y pasas el resto del día con cara de haber visto algo que no se puede desver?',
+      text: '¿Si llega un vídeo "picante" por error al grupo de la familia, apagas el móvil, lo metes en un cajón como si fuera radiactivo y pasas el resto del día con cara de testigo protegido?',
       weight: 6,
     },
     {
-      text: '¿Ves a una pareja dándose el lote en la calle y algo en tu interior muere un poco, aunque intentes disimularlo mirando el escaparate de una ferretería?',
+      text: '¿Ves a una pareja dándose el lote en plena calle y algo dentro de ti fallece con dignidad, mientras finges un interés repentino y desesperado por el escaparate de una ferretería?',
       weight: 7,
     },
     {
-      text: '¿Usas tacos en conversaciones normales solo si te golpeas un dedo con algo y además pides perdón automáticamente a nadie en concreto?',
+      text: '¿Solo dices tacos si te machacas un dedo con la puerta, e incluso entonces pides perdón al aire, al universo y a tu abuela por si estaba escuchando?',
       weight: 5,
     },
     {
-      text: '¿En una cena, si alguien empieza a contar un chiste de los verdes con entusiasmo, ya te has levantado para "ir al baño" antes de que llegue al remate?',
+      text: '¿En una cena, cuando alguien arranca un chiste verde, ya estás levantándote "al baño" con la agilidad de quien evacúa un edificio en llamas, antes de que llegue el remate?',
       weight: 7,
     },
     {
-      text: '¿Defiendes la libertad de expresión y el "cada uno con lo suyo", pero si alguien no usa servilleta o eructa sin taparse te escandalizas como si hubiera declarado la guerra?',
+      text: '¿Defiendes el "cada uno con lo suyo" hasta que alguien eructa sin taparse, momento en que te transformas en un tribunal militar con servilleta de tela?',
       weight: 8,
     },
     {
-      text: '¿Has bajado el volumen de la tele cuando en una serie empezaban a ponerse cariñosos… aunque estuvieras completamente solo en casa?',
+      text: '¿Has bajado el volumen de la tele cuando en una serie se ponían cariñosos… estando completamente solo en casa, con las persianas bajadas y la puerta cerrada con dos vueltas?',
       weight: 6,
     },
     {
-      text: '¿Dices que no tienes prejuicios pero en situaciones de presión te brota el "¡Hay un mínimo de decoro!" con una espontaneidad que te delata?',
+      text: '¿Dices que no tienes prejuicios pero bajo presión te brota un "¡Hay un MÍNIMO de decoro!" tan espontáneo que parece que llevas un mayordomo victoriano de bolsillo instalado de fábrica?',
       weight: 10,
     },
     {
-      text: '¿Has pensado "esto se está yendo de madre" en una conversación que en realidad iba sobre si la tortilla tiene cebolla o no?',
+      text: '¿Has pensado "esto se está yendo de madre" en una conversación que iba, literalmente, sobre si la tortilla lleva cebolla, como si estuvieran desvalijando un banco encima de la mesa?',
       weight: 7,
     },
     {
-      text: '¿Si un amigo aparece en una cena formal con una camiseta con un dibujo explícito y sin contexto, evitas presentárselo a cualquier persona que conozcas como si él fuera el problema?',
+      text: '¿Si un amigo aparece en una cena formal con una camiseta con un dibujo explícito, lo gestionas como un escolta gestiona una amenaza: aislándolo de cualquier persona que conozcas?',
       weight: 6,
     },
     {
-      text: '¿En el vestuario del gimnasio, si hay un señor de 80 años paseándose en pelota picada sin ningún complejo mientras se seca los pies con tranquilidad, piensas que "eso no debería estar permitido"?',
+      text: '¿En el vestuario del gimnasio, ante un señor de 80 años paseándose en pelota picada con la serenidad de un emperador romano, piensas que "eso debería estar tipificado en el Código Penal"?',
       weight: 9,
     },
     {
-      text: '¿Si un amigo te regala un libro de colorear de adultos con temática anatómica explícita, te ríes forzadamente, dices "estás muy loco" y lo guardas en el fondo del cajón más oscuro con la puerta cerrada con llave?',
+      text: '¿Si te regalan un libro de colorear de adultos con anatomía explícita, sueltas un "jajaja estás fatal" de circunstancias y lo entierras en el cajón más profundo, debajo de las facturas de 2014, con llave?',
       weight: 6,
     },
     {
-      text: '¿Ver a alguien comer un plátano de forma sugerente en público te produce tal incomodidad que desvías la mirada como si te hubieran pillado mirando?',
+      text: '¿Ver a alguien comerse un plátano de forma sugerente en público te genera tal cortocircuito que desvías la mirada como si la pillada fuera tuya y vinieras de robar?',
       weight: 8,
     },
     {
-      text: '¿En algún momento durante este test has pensado "esto es un poco pasado de rosca, ¿no?"?',
+      text: '¿En algún momento de este test has pensado "esto está un poco pasado de rosca" y te has planteado denunciarnos a alguna autoridad competente?',
       weight: 10,
     },
   ],
@@ -74,49 +74,49 @@ window.TEST_CONFIG = {
       title: 'Liberal de boquilla',
       category: 'Libertino de sofá',
       description:
-        'Dices "el cuerpo es natural" y "cada uno con lo suyo", pero si tu vecino baja la basura en calzoncillos de cuadros te entra un leve mareo. Tienes un pudor residual que sale por los poros en cuanto la situación se pone mínimamente incómoda. En el fondo, preferirías que todo el mundo fuera un poco más discreto. Pero solo un poco.',
+        'Dices "el cuerpo es natural" y "cada uno con lo suyo", pero si tu vecino baja la basura en calzoncillos de cuadros te entra un mareo diplomático. Tienes un pudor residual que se te escapa por los poros en cuanto la cosa se pone incómoda. En el fondo querrías que todos fueran un poco más discretos. Pero solo un poco, no te vayamos a llamar carca.',
     },
     {
       maxRatio: 0.28,
       title: 'Pudoroso asintomático',
       category: 'Casto en diferido',
       description:
-        'En el fondo te atraen los contenidos para adultos, pero hay algo en ti que siempre mira por encima del hombro antes de abrirlos, como si el espíritu de tu abuela te vigilara desde el cuadro del pasillo.',
+        'En el fondo te atraen los contenidos para adultos, pero algo en ti mira por encima del hombro antes de abrirlos, como si el espíritu de tu abuela te vigilara desde el cuadro del pasillo con prismáticos y libreta.',
     },
     {
       maxRatio: 0.42,
       title: 'Hipócrita de guante blanco',
       category: 'Doble moral deluxe',
       description:
-        'No eres un santo ni de lejos, pero te encanta que los demás piensen que sí lo eres. Te escandalizas en público y en privado buscas cosas en internet que harían temblar al Marqués de Sade. Eres el típico que pone cara de horror mientras se pone las gafas para ver mejor el desastre. Llegarás al juicio final con el historial del navegador sin borrar.',
+        'No eres un santo ni de lejos, pero te encanta que lo parezca. Te escandalizas en público y en privado buscas cosas que harían sonrojar al Marqués de Sade. Eres el típico que pone cara de horror mientras se pone las gafas para ver mejor el desastre. Llegarás al juicio final con el historial sin borrar y pidiendo modo incógnito.',
     },
     {
       maxRatio: 0.58,
       title: 'Mojigato de armario',
       category: 'Guardián del decoro',
       description:
-        'Vas de moderno por la vida, usas ropa de marca y dices "tío" cada tres frases, pero cualquier referencia anatómica directa en conversación te provoca una contractura facial involuntaria.',
+        'Vas de moderno, llevas ropa de marca y dices "tío" cada tres frases, pero una referencia anatómica directa te provoca una contractura facial que requiere fisioterapia.',
     },
     {
       maxRatio: 0.74,
       title: 'Fetichista de la moral',
       category: 'Comisario del decoro',
       description:
-        'Eres el "bienqueda" oficial de tu grupo, con un censor interno que trabaja turnos extra y cobra en incomodidad ajena.',
+        'Eres el "bienqueda" oficial de tu grupo: un censor interno que hace turnos dobles, cobra en incomodidad ajena y no se coge vacaciones ni en agosto.',
     },
     {
       maxRatio: 0.89,
       title: 'Censor del mes',
       category: 'Inspector de la moral',
       description:
-        'Estás tan almidonado que si te sientas de golpe podrías partirte. Tu hábitat natural es una junta de vecinos donde se debate el grosor reglamentario de las cortinas. Para ti, el desmadre empieza en cuanto alguien sonríe con demasiados dientes.',
+        'Estás tan almidonado que si te sientas de golpe te partes por la mitad con un crujido seco. Tu hábitat natural es una junta de vecinos debatiendo el grosor reglamentario de las cortinas. Para ti el desmadre empieza cuando alguien sonríe enseñando demasiados dientes.',
     },
     {
       maxRatio: 1,
       title: 'Fósil viviente',
       category: 'Inquisidor del siglo XV',
       description:
-        'Eres tan mojigato que le pides permiso al espejo antes de desnudarte. Tu nivel de puritanismo es capaz de paralizar una fiesta a dos kilómetros de distancia con solo cruzar los brazos. Probablemente pienses que el reggaetón es una invocación al caos y que las rodillas al aire son una provocación moral. Suéltate. Solo un poco. La vida son dos días y ya llevas uno.',
+        'Eres tan mojigato que le pides permiso al espejo antes de desnudarte y aun así te tapa los ojos. Tu puritanismo paraliza fiestas a dos kilómetros con solo cruzar los brazos. Probablemente creas que el reggaetón es una invocación al caos y que unas rodillas al aire son una provocación moral. Suéltate. Solo un poco. La vida son dos días y ya llevas uno y medio.',
     },
   ],
 };

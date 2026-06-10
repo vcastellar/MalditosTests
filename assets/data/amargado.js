@@ -1,62 +1,62 @@
 // /assets/data/amargado.js
 window.TEST_CONFIG = {
-  testUrl: 'https://elamargometro.com',
+  testUrl: window.location.href,
 
   questions: [
     {
-      text: '¿Cuando alguien te propone una foto de grupo, posas sin poner cara de que te están extirpando algo sin anestesia?',
+      text: 'Te meten en una foto de grupo sin tu consentimiento. ¿Eres capaz de sonreír sin que parezca que te están haciendo una endodoncia sin anestesia y sin cita previa?',
       weight: 5,
     },
     {
-      text: '¿Puedes ir al Mercadona un sábado a las 6 de la tarde sin que el tipo del carrito lento te ponga en riesgo de homicidio imprudente?',
+      text: '¿Puedes sobrevivir al Mercadona un sábado a las 18:00 sin fantasear con embestir con tu carrito al señor que bloquea el pasillo entero mientras decide entre dos atunes idénticos?',
       weight: 8,
     },
     {
-      text: 'Si un amigo te cuenta su proyecto nuevo con ilusión de cocker spaniel, ¿consigues no hundírselo con una sola frase antes de que acabe la frase?',
+      text: 'Tu amigo te presenta su nuevo proyecto con ilusión de golden retriever recién adoptado. ¿Consigues no fusilárselo con una sola frase y dejarlo llorando sobre su Excel de previsiones?',
       weight: 7,
     },
     {
-      text: '¿Aceptas un cumplido sin mirar al suelo, bufar por la nariz y responder "bueno, tampoco es para tanto"?',
+      text: 'Te sueltan un cumplido a bocajarro. ¿Lo aceptas sin bufar, sin mirar al suelo y sin abrir un expediente interno sobre qué querrá esta persona de ti exactamente?',
       weight: 4,
     },
     {
-      text: 'Alguien te chilla "¡Buenos díaaaaas!" con una sonrisa de 40 dientes un lunes a las 8:00 AM. ¿Le deseas algo que no sea su desaparición inmediata de la faz de la tierra?',
+      text: 'Un lunes a las 8:00 alguien te grita "¡Buenos díaaaaas!" con sonrisa de anuncio de dentífrico. ¿Le deseas algo que no incluya su abducción inmediata por una civilización alienígena sin política de devoluciones?',
       weight: 10,
     },
     {
-      text: '¿Puedes ver a una pareja dándose la mano en el parque sin calcular mentalmente cuánto les queda antes de odiarse en un juzgado?',
+      text: '¿Puedes ver a una pareja haciéndose carantoñas en el parque sin redactar mentalmente su convenio regulador, la custodia del perro y quién se queda la freidora de aire?',
       weight: 7,
     },
     {
-      text: '¿Escuchas el hit del verano sin soltar un discurso sobre la muerte de la civilización que dura más que la canción?',
+      text: 'Suena el hit del verano en el bar. ¿Consigues no levantarte a dar una TED Talk improvisada sobre la decadencia de la música moderna que dura tres canciones y media?',
       weight: 8,
     },
     {
-      text: 'Un niño te sonríe en el metro. ¿Le devuelves el gesto en lugar de mirar al infinito con la expresión de quien ha visto demasiado?',
+      text: 'Un niño te sonríe en el metro. ¿Le devuelves la sonrisa en vez de mirarlo como un veterano de mil guerras que sabe que ese crío algún día también pagará hipoteca?',
       weight: 6,
     },
     {
-      text: '¿Ves un vídeo de un cachorro y lo primero que piensas es en lo tierno que es, y NO en las facturas del veterinario, el olor a perro mojado y los pelos en el sofá?',
+      text: 'Ves un vídeo de un cachorro dando volteretas. ¿Tu primer pensamiento es "qué cosa más bonita" y NO un desglose forense de facturas de veterinario, pelos en la sopa y meadas en el parqué?',
       weight: 5,
     },
     {
-      text: '¿Puedes esperar en la cola del súper sin taladrar mentalmente la nuca del de delante como si tuvieras superpoderes de desintegración?',
+      text: 'En la cola del súper, el de delante saca 47 cupones y paga en monedas de céntimo. ¿Logras no intentar desintegrarlo con la mirada como un microondas humano puesto a máxima potencia?',
       weight: 9,
     },
     {
-      text: '¿Eres capaz de felicitar a alguien con tono humano en lugar de sonar como una lavadora con un ladrillo dentro?',
+      text: '¿Puedes felicitar un cumpleaños con voz de persona viva en lugar de sonar como un contestador automático que ha perdido la fe en la humanidad y en sí mismo?',
       weight: 7,
     },
     {
-      text: '¿Crees que hoy puede pasarte algo bueno sin que sea un engaño del universo para pillarte con la guardia baja?',
+      text: '¿Eres capaz de creer que hoy te puede pasar algo bueno sin asumir que es el cebo de una trampa cósmica diseñada específicamente para humillarte en público?',
       weight: 9,
     },
     {
-      text: 'Alguien te dice "todo va a salir bien". ¿No le respondes con un análisis detallado de por qué ese optimismo es estadísticamente insostenible?',
+      text: 'Alguien te dice "todo va a salir bien". ¿Consigues no responderle con un PowerPoint de 40 diapositivas, gráficas incluidas, demostrando que está estadísticamente condenado?',
       weight: 8,
     },
     {
-      text: '¿Puedes compartir ascensor con alguien que va a trabajar contento sin sospechar que está yendo a cometer algún delito fiscal?',
+      text: 'Compartes ascensor con un tipo que silba contento a las 7:45 de la mañana. ¿Puedes no dar por hecho que silba porque acaba de cometer un delito fiscal o esconde algo muy turbio en el trastero?',
       weight: 7,
     },
   ],

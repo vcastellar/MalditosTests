@@ -10,8 +10,73 @@
     />
     <meta
       name="keywords"
-      content="test de personalidad, tests divertidos, quiz de personalidad, test online gratis, test psicológico divertido, qué tipo de persona soy"
+      content="test de personalidad, tests divertidos, quiz de personalidad, test online gratis, test psicológico divertido, qué tipo de persona soy, doctor frenillo"
     />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="V. Castellar" />
+    <meta name="theme-color" content="#0f0f14" />
+    <link rel="canonical" href="https://malditostests.com/" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Malditos Tests" />
+    <meta property="og:title" content="Malditos Tests | Tests de personalidad y quizzes divertidos gratis" />
+    <meta
+      property="og:description"
+      content="La colección de tests de personalidad más gamberra de Internet: Amargómetro, Cuñadómetro, Procrastinómetro y más. Resultados inmediatos, gratis y para compartir."
+    />
+    <meta property="og:url" content="https://malditostests.com/" />
+    <meta property="og:image" content="https://malditostests.com/images/amargado.jpeg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Malditos Tests | Tests de personalidad gamberros y gratis" />
+    <meta
+      name="twitter:description"
+      content="Descubre qué clase de criatura eres con los tests del Doctor Frenillo. Gratis, inmediatos y sin piedad."
+    />
+    <meta name="twitter:image" content="https://malditostests.com/images/amargado.jpeg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "Malditos Tests",
+            "url": "https://malditostests.com/",
+            "inLanguage": "es",
+            "author": { "@type": "Person", "name": "V. Castellar" },
+            "description": "Tests de personalidad gamberros y quizzes divertidos online gratis, con resultado inmediato."
+          },
+          {
+            "@type": "Person",
+            "name": "Doctor Frenillo",
+            "description": "Autor satírico de manuales de diagnóstico del comportamiento humano contemporáneo.",
+            "url": "https://www.amazon.es/stores/author/B0GVRCPN54"
+          },
+          {
+            "@type": "ItemList",
+            "name": "Tests de personalidad de Malditos Tests",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Amargómetro Supremo", "url": "https://malditostests.com/tests/amargado/" },
+              { "@type": "ListItem", "position": 2, "name": "Test del Agarrado", "url": "https://malditostests.com/tests/agarrado/" },
+              { "@type": "ListItem", "position": 3, "name": "Test del Intensito", "url": "https://malditostests.com/tests/intensito/" },
+              { "@type": "ListItem", "position": 4, "name": "Procrastinómetro", "url": "https://malditostests.com/tests/procrastinometro/" },
+              { "@type": "ListItem", "position": 5, "name": "Cuñadómetro", "url": "https://malditostests.com/tests/cunadometro/" },
+              { "@type": "ListItem", "position": 6, "name": "Test Mojigato", "url": "https://malditostests.com/tests/mojigato/" },
+              { "@type": "ListItem", "position": 7, "name": "Sabelotodómetro", "url": "https://malditostests.com/tests/sabelotodometro/" },
+              { "@type": "ListItem", "position": 8, "name": "Haterómetro", "url": "https://malditostests.com/tests/haterometro/" },
+              { "@type": "ListItem", "position": 9, "name": "Cotillómetro", "url": "https://malditostests.com/tests/cotillometro/" }
+            ]
+          }
+        ]
+      }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -121,6 +186,18 @@
         padding: 1rem;
         display: grid;
         gap: 0.8rem;
+        transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+      }
+
+      .test-item:hover {
+        transform: translateY(-4px);
+        border-color: rgba(255, 138, 61, 0.45);
+        background: rgba(255, 138, 61, 0.06);
+      }
+
+      .test-item h3 {
+        margin: 0;
+        font-size: 1.15rem;
       }
 
       .test-item p {
@@ -192,15 +269,112 @@
         font-weight: 500;
       }
 
+      .amazon-cta {
+        margin-top: 1.2rem;
+        padding: 1.1rem 1.2rem;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 77, 109, 0.4);
+        background: rgba(255, 77, 109, 0.08);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.9rem;
+      }
+
+      .amazon-cta p {
+        margin: 0;
+        color: var(--text);
+        font-weight: 500;
+        max-width: 46ch;
+      }
+
       footer {
         text-align: center;
         color: var(--muted);
+        padding: 0 1rem 2rem;
       }
 
       footer a {
         color: var(--accent);
       }
+
+      .privacy-note {
+        font-size: 0.85rem;
+        max-width: 70ch;
+        margin: 0.6rem auto 0;
+        opacity: 0.8;
+        line-height: 1.5;
+      }
+
+      .theme-toggle {
+        position: fixed;
+        top: 0.9rem;
+        right: 0.9rem;
+        z-index: 50;
+        width: 2.75rem;
+        height: 2.75rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--text);
+        cursor: pointer;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        transition: transform 160ms ease;
+      }
+
+      .theme-toggle:hover {
+        transform: translateY(-2px) rotate(12deg);
+      }
+
+      html[data-theme='light'] {
+        color-scheme: light;
+        --bg: #f7f3ec;
+        --bg-alt: #ffffff;
+        --card: rgba(255, 255, 255, 0.88);
+        --border: rgba(30, 22, 40, 0.14);
+        --text: #261f2b;
+        --muted: #5f5763;
+        --accent: #d95f10;
+        --accent-2: #cf3556;
+        --shadow: 0 24px 80px rgba(90, 60, 25, 0.14);
+      }
+
+      html[data-theme='light'] body {
+        background:
+          radial-gradient(circle at top, rgba(255, 138, 61, 0.16), transparent 30%),
+          radial-gradient(circle at right, rgba(255, 77, 109, 0.1), transparent 26%),
+          linear-gradient(180deg, #fbf7f0 0%, #efe7da 100%);
+      }
+
+      html[data-theme='light'] .test-item {
+        background: rgba(30, 22, 40, 0.04);
+        border-color: rgba(30, 22, 40, 0.1);
+      }
+
+      html[data-theme='light'] .lead-highlight {
+        background: rgba(217, 95, 16, 0.08);
+        border-color: rgba(217, 95, 16, 0.35);
+        color: #7a3c08;
+      }
+
+      html[data-theme='light'] .lead-highlight a {
+        color: #a8470a;
+      }
+
+      html[data-theme='light'] .review blockquote {
+        background: rgba(30, 22, 40, 0.05);
+      }
+
+      html[data-theme='light'] .amazon-cta {
+        background: rgba(207, 53, 86, 0.07);
+      }
     </style>
+    <script src="./assets/js/theme.js?v=2026-06-10"></script>
   </head>
   <body>
     <main class="layout">
@@ -231,7 +405,8 @@
             <h3>Amargómetro Supremo</h3>
             <p>
               Descubre si eres un rayo de sol o un auténtico cascarrabias con este divertido test
-              de personalidad.
+              de personalidad. Catorce situaciones cotidianas —colas, cumplidos, gente alegre por la
+              mañana— y una puntuación de amargura certificada sobre 100.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/amargado.jpeg" alt="Ilustración del test del amargado" loading="lazy" />
@@ -245,7 +420,8 @@
             <h3>Test del Agarrado</h3>
             <p>
               Mide tu nivel de tacañería y averigua si eres ahorrador o un auténtico guardián del
-              euro.
+              euro. De la bolsita de té reutilizada al ticket auditado en plena salida del súper:
+              tu diagnóstico, gratis. Obviamente.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/agarrado.png" alt="Ilustración del test del agarrado" loading="lazy" />
@@ -259,7 +435,8 @@
             <h3>Test del Intensito</h3>
             <p>
               ¿Vives cada momento con dramatismo existencial? Este test revela tu nivel de
-              intensidad emocional.
+              intensidad emocional: vistos convertidos en tragedia, audios con epílogo y
+              discusiones imaginarias ganadas en la ducha.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/intensito.png" alt="Ilustración del test del intensito" loading="lazy" />
@@ -272,6 +449,8 @@
             <h3>Procrastinómetro</h3>
             <p>
               Descubre si eres productivo o un maestro en el arte de dejarlo todo para mañana.
+              Si has abierto este test para no hacer otra cosa, ya tienes media respuesta:
+              complétala con tu puntuación oficial.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/procrastinador.png" alt="Ilustración del procrastinómetro" loading="lazy" />
@@ -283,7 +462,8 @@
             <h3>Cuñadómetro</h3>
             <p>
               Averigua cuánto sabes realmente… o cuánto crees saber. Ideal para detectar opinadores
-              profesionales.
+              profesionales con bibliografía de tres audios reenviados, un titular sin abrir y un
+              primo que «sabe de esto».
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/cuñadometro.png" alt="Ilustración del cuñadómetro" loading="lazy" />
@@ -294,7 +474,8 @@
             <h3>Test Mojigato</h3>
             <p>
               Mide tu nivel de pudor y descubre si eres liberal o un auténtico guardián del
-              decoro.
+              decoro. Chistes verdes, parejas efusivas y vestuarios de gimnasio: catorce pruebas
+              de fuego para tu sentido del recato.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/mojigato.png" alt="Ilustración del test del mojigato" loading="lazy" />
@@ -305,7 +486,9 @@
           <article class="test-item">
             <h3>Sabelotodómetro</h3>
             <p>
-              ¿Eres una enciclopedia humana o simplemente te encanta corregir a los demás?
+              ¿Eres una enciclopedia humana o simplemente te encanta corregir a los demás? Si ya
+              estás preparando un «de hecho…», este test de sabelotodismo tiene tu nombre y tu
+              puntuación esperándote.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/sabelotodo.png" alt="Ilustración del sabelotodómetro" loading="lazy" />
@@ -317,7 +500,8 @@
             <h3>Haterómetro</h3>
             <p>
               Evalúa tu tendencia a criticarlo todo y descubre si eres constructivo o un auténtico
-              hater.
+              hater capaz de encontrarle el «pero» al teletransporte. Tu Índice de Bilis Digital,
+              medido al instante.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/hater.png" alt="Ilustración del haterómetro" loading="lazy" />
@@ -329,7 +513,8 @@
             <h3>Cotillómetro</h3>
             <p>
               Descubre tu nivel de curiosidad social y averigua si eres discreto o un cronista del
-              salseo.
+              salseo con expediente abierto de cada vecino. Tu Índice de Curiosidad Social, sin
+              registro y con resultado inmediato.
             </p>
             <div class="test-cta">
               <img class="test-thumb" src="./images/cotilla.png" alt="Ilustración del cotillómetro" loading="lazy" />
@@ -348,6 +533,27 @@
           preguntas frecuentes.
         </p>
         <a class="btn alt" href="./faq.html">Ir a la FAQ de Malditos Tests</a>
+      </section>
+
+      <section class="card" aria-label="Sobre Malditos Tests">
+        <p class="eyebrow">Sobre esta web</p>
+        <h2>Tests de personalidad divertidos, gratis y sin registro</h2>
+        <p class="lead">
+          Malditos Tests es una colección de tests de personalidad divertidos en español, pensados
+          para reírte de ti mismo y, sobre todo, de los demás. Todos los quizzes son online,
+          gratuitos y sin registro: respondes 14 preguntas, obtienes tu puntuación sobre 100 al
+          instante y puedes compartir el resultado por WhatsApp o redes sociales con un solo botón.
+        </p>
+        <p class="lead">
+          Cada test mide una patología social distinta: la amargura, la tacañería, la intensidad
+          emocional, la procrastinación, el cuñadismo, la mojigatería, el sabelotodismo, el odio
+          recreativo y el cotilleo. Ninguno tiene validez clínica —faltaría más—, pero todos siguen
+          el cuestionable sistema de clasificación del
+          <a href="https://www.amazon.es/stores/author/B0GVRCPN54" target="_blank" rel="noopener noreferrer">Doctor Frenillo</a>,
+          cuyos manuales de diagnóstico puedes encontrar en Amazon. Y recuerda: esta web no usa
+          cookies ni guarda tus respuestas, así que tu nivel de cuñadismo queda entre tú y tu
+          conciencia.
+        </p>
       </section>
 
       <section class="card" aria-label="Reseña del Doctor Frenillo">
@@ -377,6 +583,20 @@
           </p>
           <p>Mientras tanto, sigue tomando notas.</p>
           <blockquote>Su lema es: «Si molesta, probablemente sea correcto».</blockquote>
+          <div class="amazon-cta">
+            <p>
+              ¿Te has quedado con ganas de más diagnóstico no solicitado? Los manuales del Doctor
+              Frenillo están disponibles en Amazon.
+            </p>
+            <a
+              class="btn alt"
+              href="https://www.amazon.es/stores/author/B0GVRCPN54"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver sus libros en Amazon →
+            </a>
+          </div>
         </div>
       </section>
     </main>
@@ -386,6 +606,11 @@
         <a href="/legal.html">Aviso legal y política de privacidad</a> |
         <a href="/faq.html">FAQ</a> |
         <a href="mailto:vic.sebastia@outlook.es">Contacto</a>
+      </p>
+      <p class="privacy-note">
+        Esta web no almacena cookies ni identifica al usuario de ninguna forma. No obstante, el
+        proveedor de hosting (Hostinger) puede recabar automáticamente datos técnicos de
+        navegación, como la dirección IP, con fines de funcionamiento y seguridad.
       </p>
     </footer>
   </body>

@@ -1,22 +1,22 @@
 // /assets/data/sabelotodometro.js
 window.TEST_CONFIG = {
-  testUrl: 'https://elamargometro.com',
+  testUrl: window.location.href,
 
   questions: [
-    { text: '¿Arrancas frases con "de hecho…" como si fueras un hilo de X con traje y corbata?', weight: 7 },
-    { text: '¿Corriges a tus amigos una coma mal puesta en mitad de una birra como si de ello dependiera la democracia?', weight: 7 },
-    { text: '¿Sacas "un estudio de Harvard" aunque estéis debatiendo si los macarrones quedan mejor con o sin nata?', weight: 7 },
-    { text: '¿Cuando alguien dice algo incorrecto, te pica todo el cuerpo hasta que puedes corregirlo delante de todos?', weight: 7 },
-    { text: '¿Interrumpes para explicar "cómo funciona realmente eso" con voz grave de narrador de documental de naturaleza?', weight: 7 },
-    { text: '¿Das masterclasses sobre temas que descubriste en un reel hace exactamente 11 minutos?', weight: 7 },
-    { text: '¿Decir "ya lo sabía yo" te produce más satisfacción que un aumento de sueldo?', weight: 7 },
-    { text: '¿Conviertes una conversación de ascensor en una TED Talk sin que nadie te lo haya pedido ni remotamente?', weight: 7 },
-    { text: '¿Te da urticaria física que alguien diga "creo que…" en vez de sentenciar directamente como persona segura?', weight: 7 },
-    { text: '¿Has corregido datos en una fiesta de cumpleaños como si fuera el VAR de la realidad objetiva?', weight: 7 },
-    { text: '¿Invocas "datos objetivos y contrastados" para defender preferencias personales como el orden correcto de los ingredientes en un sándwich?', weight: 7 },
-    { text: '¿Eres incapaz de decir "no tengo ni idea" y prefieres improvisar en modo experto premium antes de reconocer ignorancia?', weight: 7 },
-    { text: '¿Ya te llaman "Wikipedia" en el grupo, pero una Wikipedia que no tiene botón de cerrar pestaña?', weight: 8 },
-    { text: '¿Opinas con total seguridad de la Champions League, los agujeros negros y la política monetaria del BCE en el mismo almuerzo?', weight: 8 },
+    { text: '¿Arrancas frases con "de hecho..." con tanta frecuencia que tus amigos ya lo oyen en sueños, como un acúfeno con opiniones?', weight: 7 },
+    { text: '¿Has corregido una tilde en mitad de una birra con la solemnidad de quien desactiva una bomba nuclear, convencido de que la RAE te debe una medalla?', weight: 7 },
+    { text: '¿Has citado "un estudio de Harvard" en un debate sobre macarrones con nata, sabiendo perfectamente que ese estudio vive solo en tu imaginación?', weight: 7 },
+    { text: '¿Cuando alguien dice un dato incorrecto, aguantas la corrección como quien aguanta un estornudo: tres segundos, sudando, y al final explota delante de todos?', weight: 7 },
+    { text: '¿Interrumpes con "a ver, cómo funciona esto realmente" poniendo voz de documental, como si la otra persona fuera un ñu y tú David Attenborough?', weight: 7 },
+    { text: '¿Das masterclasses magistrales sobre temas que descubriste en un reel hace exactamente 11 minutos, con la seguridad de un catedrático emérito?', weight: 7 },
+    { text: '¿Soltar "ya lo decía yo" te produce un subidón que ni un aumento de sueldo, ni un sorteo, ni que te devuelva dinero Hacienda?', weight: 7 },
+    { text: '¿Has convertido un trayecto de ascensor de dos plantas en una TED Talk con turno de preguntas que nadie pidió y nadie pudo evitar?', weight: 7 },
+    { text: '¿Te da urticaria física que alguien diga "creo que..." en vez de sentenciar, porque la duda ajena te parece una enfermedad contagiosa?', weight: 7 },
+    { text: '¿Has hecho de VAR de la realidad en un cumpleaños infantil, parando la fiesta para revisar la jugada y anular un dato del abuelo?', weight: 7 },
+    { text: '¿Defiendes tus gustos personales con "datos objetivos y contrastados", incluyendo el orden moralmente correcto de los ingredientes de un sándwich?', weight: 7 },
+    { text: '¿Antes de pronunciar "no tengo ni idea" preferirías improvisar una conferencia entera en modo experto premium, con gráficas inventadas si hace falta?', weight: 7 },
+    { text: '¿En el grupo ya te llaman "Wikipedia", pero una Wikipedia poseída que se abre sola a las 3 de la mañana y no tiene botón de cerrar pestaña?', weight: 8 },
+    { text: '¿Has opinado con seguridad absoluta de la Champions, los agujeros negros y las corrientes oceánicas del Pacífico en el mismo almuerzo, entre el primero y el postre?', weight: 8 },
   ],
 
   scoreMap: {
@@ -26,12 +26,12 @@ window.TEST_CONFIG = {
   },
 
   resultBands: [
-    { maxRatio: 0.14, title: 'Aprendiz de enciclopedia', category: 'Sabiduría no solicitada mínima', description: 'Todavía eres capaz de tener una conversación sin convertirla en un simposio. Eso, hoy en día, es casi un superpoder.' },
-    { maxRatio: 0.28, title: 'Puntualizador amable', category: 'Sabelotodismo leve', description: 'Corriges cositas de vez en cuando, pero aún eres soportable en comidas familiares largas. Casi agradable, incluso.' },
-    { maxRatio: 0.42, title: 'Wikipedia con piernas', category: 'Sabelotodismo funcional', description: 'Siempre tienes un dato a mano. A veces es útil. Muchas otras veces es perfectamente innecesario y nadie te lo ha pedido.' },
-    { maxRatio: 0.58, title: 'Comentarista absoluto', category: 'Sabelotodismo serio', description: 'No dejas un tema sin diagnosticar, analizar y sentenciar. Tu opinión entra siempre en la conversación, invitada o no, con zapatos de calle.' },
-    { maxRatio: 0.74, title: 'Doctor del "de hecho"', category: 'Sabelotodismo alto', description: 'Has convertido corregir a los demás en una disciplina de alto rendimiento con entrenamiento diario y cero días de descanso.' },
-    { maxRatio: 0.89, title: 'Cátedra ambulante', category: 'Sabelotodismo extremo', description: 'Tu superioridad argumental aparece en cualquier contexto, incluido uno en el que alguien solo preguntaba dónde está el baño.' },
-    { maxRatio: 1, title: 'Oráculo no solicitado', category: 'Jefe final del sabelotodo', description: 'Todo lo sabes, todo lo explicas, todo lo corriges y nadie te ha pedido nada de eso. Eres una enciclopedia que camina, habla y no tiene botón de silencio.' },
+    { maxRatio: 0.14, title: 'Aprendiz de enciclopedia', category: 'Sabiduría no solicitada mínima', description: 'Todavía puedes mantener una conversación sin convertirla en un simposio con acreditaciones. Hoy en día eso es casi un superpoder; consérvalo en formol.' },
+    { maxRatio: 0.28, title: 'Puntualizador amable', category: 'Sabelotodismo leve', description: 'Corriges cositas de vez en cuando, pero aún eres soportable en comidas familiares de tres horas. Estás en la frontera: un "de hecho" más y cruzas sin retorno.' },
+    { maxRatio: 0.42, title: 'Wikipedia con piernas', category: 'Sabelotodismo funcional', description: 'Siempre tienes un dato a mano. A veces es útil. Las otras cuarenta veces es un paquete que nadie pidió y que entregas igualmente, en mano y con firma.' },
+    { maxRatio: 0.58, title: 'Comentarista absoluto', category: 'Sabelotodismo serio', description: 'No dejas tema sin diagnosticar, analizar y sentenciar. Tu opinión entra en todas las conversaciones como un okupa con powerpoint: sin invitación y dispuesta a quedarse.' },
+    { maxRatio: 0.74, title: 'Doctor del "de hecho"', category: 'Sabelotodismo alto', description: 'Has convertido corregir a los demás en deporte de alto rendimiento: entrenamiento diario, cero días de descanso y lesiones, pero siempre en los demás.' },
+    { maxRatio: 0.89, title: 'Cátedra ambulante', category: 'Sabelotodismo extremo', description: 'Tu superioridad argumental se despliega en cualquier contexto, incluido aquel en el que alguien solo preguntaba dónde estaba el baño y recibió la historia del alcantarillado romano.' },
+    { maxRatio: 1, title: 'Oráculo no solicitado', category: 'Jefe final del sabelotodo', description: 'Todo lo sabes, todo lo explicas, todo lo corriges y absolutamente nadie te ha pedido nada de eso. Eres una enciclopedia que camina, habla, no tiene botón de silencio y viene con actualizaciones automáticas a la hora de cenar.' },
   ],
 };

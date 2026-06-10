@@ -1,62 +1,62 @@
 // /assets/data/procrastinometro.js
 window.TEST_CONFIG = {
-  testUrl: 'https://elamargometro.com',
+  testUrl: window.location.href,
 
   questions: [
     {
-      text: '¿Has limpiado el baño, reorganizado el armario y revisado el extintor del coche para evitar hacer la tarea que tenías que entregar ayer?',
+      text: '¿Has limpiado el baño con cepillo de dientes, alfabetizado las especias y revisado el extintor del coche con tal de no enfrentarte a la tarea que tenías que entregar ayer?',
       weight: 8,
     },
     {
-      text: '¿Tu mantra es "empiezo el lunes" aunque ya sea miércoles y el plazo sea el jueves?',
+      text: '¿Tu mantra es "empiezo el lunes" aunque ya sea miércoles, el plazo sea el jueves y tu jefe haya empezado a escribirte en mayúsculas?',
       weight: 7,
     },
     {
-      text: '¿Abres el ordenador con intención de trabajar y en 3 minutos ya estás viendo vídeos de recetas que nunca jamás vas a cocinar en tu vida?',
+      text: '¿Abres el ordenador "a trabajar" y en 3 minutos estás viendo a un señor de Wisconsin restaurar un hacha oxidada y vídeos de recetas que no cocinarás ni bajo amenaza?',
       weight: 7,
     },
     {
-      text: '¿Has puesto cinco alarmas distintas para "ponerte en serio" y las has silenciado todas con la misma inercia con que respiras?',
+      text: '¿Has puesto cinco alarmas para "ponerte en serio" y las has ejecutado una a una con la frialdad de un francotirador, sin abrir ni un ojo?',
       weight: 8,
     },
     {
-      text: '¿Cuando algo requiere esfuerzo dices "lo hago luego" siendo perfectamente consciente de que ese luego es una ficción que nunca llega?',
+      text: '¿Cuando algo requiere esfuerzo dices "lo hago luego", sabiendo perfectamente que ese "luego" es una criatura mitológica que nadie ha visto jamás?',
       weight: 7,
     },
     {
-      text: '¿Haces listas de tareas preciosas, coloridas y bien estructuradas que no vuelves a abrir nunca más?',
+      text: '¿Haces listas de tareas preciosas, con colorines y rotuladores nuevos, que abandonas en un cajón y no vuelves a abrir en tu vida?',
       weight: 6,
     },
     {
-      text: '¿Has entregado cosas literalmente al segundo, con la adrenalina en el pecho y el cursor temblando, y lo has llamado "trabajar bien bajo presión"?',
+      text: '¿Has entregado cosas en el segundo exacto del cierre, con taquicardia, sudor frío y el cursor temblando, y lo has bautizado como "trabajar bien bajo presión"?',
       weight: 8,
     },
     {
-      text: '¿Pospones incluso contestar mensajes de dos palabras porque "ahora mismo no te apetece el formato conversación"?',
+      text: '¿Pospones contestar un mensaje de dos palabras durante once días porque "ahora mismo no estás para el formato conversación", y luego respondes "jaja sí"?',
       weight: 7,
     },
     {
-      text: '¿Te has convencido de que rindes mejor bajo presión cuando la única razón de que haya presión es que llevas tres días sin hacer nada?',
+      text: '¿Te has autoconvencido de que rindes mejor bajo presión cuando la única presión existente la has fabricado tú tirándote tres días mirando al techo?',
       weight: 7,
     },
     {
-      text: '¿Has arrastrado una fecha en el calendario solo para sentir que "tienes el control", sin haber movido ni un dedo en la tarea real?',
+      text: '¿Has arrastrado una fecha en el calendario solo para sentir "control absoluto de la situación", sin haber movido ni una neurona en la tarea real?',
       weight: 6,
     },
     {
-      text: '¿Empiezas proyectos nuevos con entusiasmo renovado para no tener que terminar los que ya llevas a medias desde octubre?',
+      text: '¿Inauguras proyectos nuevos con ilusión de niño en Reyes para no tener que mirar a los ojos a los siete cadáveres a medias que arrastras desde octubre?',
       weight: 8,
     },
     {
-      text: '¿Cada noche te prometes ser otra persona mañana y cada mañana niegas haber hecho esa promesa?',
+      text: '¿Cada noche te juras ser otra persona mañana y cada mañana niegas esa promesa con la solvencia de un niño con la cara llena de chocolate jurando que no ha tocado la tarta?',
       weight: 7,
     },
     {
-      text: '¿Una tarea de 20 minutos la has aplazado cuatro días seguidos y luego la has hecho en 20 minutos exactos?',
+      text: '¿Has aplazado cuatro días seguidos una tarea de 20 minutos, sufriendo por ella las 96 horas, para luego hacerla en 20 minutos exactos y quedarte tan ancho?',
       weight: 7,
     },
     {
-      text: '¿Has dicho "mañana sin falta" más veces de las que has cumplido algo a tiempo en los últimos seis meses?',
+      text: '¿Has dicho "mañana sin falta" tantas veces que la frase ya ni te sale por la boca: te sale por reflejo, como un estornudo?',
       weight: 7,
     },
   ],
@@ -73,49 +73,49 @@ window.TEST_CONFIG = {
       title: 'Motor de arranque inmediato',
       category: 'Procrastinación casi nula',
       description:
-        'Tú no pospones: ejecutas. Tu relación con la productividad es un romance legal, consentido y que da frutos. Eres lo que todos dicen que van a ser el lunes y nunca son.',
+        'Tú no pospones: ejecutas. Tu relación con la productividad es un romance sano que da frutos. Eres lo que todo el mundo jura que va a ser el lunes y nunca es. Resultas hasta sospechoso.',
     },
     {
       maxRatio: 0.28,
       title: 'Demora educada',
       category: 'Procrastinación leve',
       description:
-        'A veces te entretienes con algo brillante e irrelevante, pero tienes suficiente criterio para volver al carril antes de que todo arda.',
+        'A veces te hipnotiza algo brillante e irrelevante, pero tienes suficiente criterio para volver al carril antes de que todo arda y haya que llamar a los bomberos.',
     },
     {
       maxRatio: 0.42,
       title: 'Especialista en "luego"',
       category: 'Procrastinación funcional',
       description:
-        'Te retrasas con estilo, creatividad y excusas de primera. Cumples, sí, pero siempre al borde del infarto y con las manos sudando.',
+        'Te retrasas con estilo, creatividad y excusas de autor. Cumples, sí, pero siempre al borde del infarto, con las manos sudando y rezando a santos que ni conoces.',
     },
     {
       maxRatio: 0.58,
       title: 'Capitán del aplazamiento',
       category: 'Procrastinación seria',
       description:
-        'Tu calendario es un monumento a las buenas intenciones. Sin fecha límite urgente y real, no existe movimiento. Punto.',
+        'Tu calendario es un cementerio de buenas intenciones con flores de plástico. Sin una fecha límite respirándote en la nuca, no existe movimiento. Ni señales de vida.',
     },
     {
       maxRatio: 0.74,
       title: 'Ninja del último minuto',
       category: 'Procrastinación alta',
       description:
-        'Conviertes cada entrega en una misión de rescate contrarreloj. Vives al borde de tus propios plazos y a estas alturas ya ni te alteran.',
+        'Conviertes cada entrega en una misión de rescate contrarreloj con helicóptero y cuerda. Vives al borde de tus propios plazos y a estas alturas ya ni se te acelera el pulso.',
     },
     {
       maxRatio: 0.89,
       title: 'Arquitecto del "mañana"',
       category: 'Procrastinación extrema',
       description:
-        'Tu talento para posponer merece cátedra universitaria. Lo urgente siempre te encuentra en pijama improvisando con lo que hay.',
+        'Tu talento para posponer merece cátedra, aula propia y placa conmemorativa. Lo urgente siempre te pilla en pijama, improvisando con lo que hay y negociando con el pánico.',
     },
     {
       maxRatio: 1,
       title: 'Procrastinador Profesional',
       category: 'Leyenda del aplazamiento',
       description:
-        'Has elevado el "ya lo haré" a filosofía de vida. Tu yo futuro te manda facturas, amenazas y cartas certificadas de arrepentimiento que tú también dejas sin abrir.',
+        'Has elevado el "ya lo haré" a religión con feligreses. Tu yo futuro te manda facturas, amenazas y cartas certificadas de arrepentimiento que tú también dejas sin abrir, encima del montón, criando polvo con dignidad.',
     },
   ],
 };
