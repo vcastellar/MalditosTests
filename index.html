@@ -305,7 +305,75 @@
         opacity: 0.8;
         line-height: 1.5;
       }
+
+      .theme-toggle {
+        position: fixed;
+        top: 0.9rem;
+        right: 0.9rem;
+        z-index: 50;
+        width: 2.75rem;
+        height: 2.75rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--text);
+        cursor: pointer;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        transition: transform 160ms ease;
+      }
+
+      .theme-toggle:hover {
+        transform: translateY(-2px) rotate(12deg);
+      }
+
+      html[data-theme='light'] {
+        color-scheme: light;
+        --bg: #f7f3ec;
+        --bg-alt: #ffffff;
+        --card: rgba(255, 255, 255, 0.88);
+        --border: rgba(30, 22, 40, 0.14);
+        --text: #261f2b;
+        --muted: #5f5763;
+        --accent: #d95f10;
+        --accent-2: #cf3556;
+        --shadow: 0 24px 80px rgba(90, 60, 25, 0.14);
+      }
+
+      html[data-theme='light'] body {
+        background:
+          radial-gradient(circle at top, rgba(255, 138, 61, 0.16), transparent 30%),
+          radial-gradient(circle at right, rgba(255, 77, 109, 0.1), transparent 26%),
+          linear-gradient(180deg, #fbf7f0 0%, #efe7da 100%);
+      }
+
+      html[data-theme='light'] .test-item {
+        background: rgba(30, 22, 40, 0.04);
+        border-color: rgba(30, 22, 40, 0.1);
+      }
+
+      html[data-theme='light'] .lead-highlight {
+        background: rgba(217, 95, 16, 0.08);
+        border-color: rgba(217, 95, 16, 0.35);
+        color: #7a3c08;
+      }
+
+      html[data-theme='light'] .lead-highlight a {
+        color: #a8470a;
+      }
+
+      html[data-theme='light'] .review blockquote {
+        background: rgba(30, 22, 40, 0.05);
+      }
+
+      html[data-theme='light'] .amazon-cta {
+        background: rgba(207, 53, 86, 0.07);
+      }
     </style>
+    <script src="./assets/js/theme.js?v=2026-06-10"></script>
   </head>
   <body>
     <main class="layout">
