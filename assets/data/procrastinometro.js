@@ -24,7 +24,7 @@ window.TEST_CONFIG = {
       weight: 7,
     },
     {
-      text: '¿Haces listas de tareas preciosas, con colorines y rotuladores nuevos, que entierras sin funeral y no vuelves a abrir en tu vida?',
+      text: '¿Haces listas de tareas preciosas, con colorines y rotuladores nuevos, que abandonas en un cajón y no vuelves a abrir en tu vida?',
       weight: 6,
     },
     {
@@ -48,7 +48,7 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: '¿Cada noche te juras ser otra persona mañana y cada mañana niegas esa promesa con la solvencia de un político en comisión de investigación?',
+      text: '¿Cada noche te juras ser otra persona mañana y cada mañana niegas esa promesa con la solvencia de un niño con la cara llena de chocolate jurando que no ha tocado la tarta?',
       weight: 7,
     },
     {

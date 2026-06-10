@@ -4,11 +4,11 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: 'Te dejan en visto 20 minutos. ¿En tu cabeza ya hay rodada una trilogía de traición, funeral simbólico y final alternativo con banda sonora de Hans Zimmer y tú llorando en la premiere?',
+      text: 'Te dejan en visto 20 minutos. ¿En tu cabeza ya hay rodada una trilogía de traición, despedida dramática y final alternativo con banda sonora de Hans Zimmer y tú llorando en la premiere?',
       weight: 7,
     },
     {
-      text: '¿Has escrito "tranqui, no pasa nada jaja" mientras llorabas en posición fetal con una intensidad que haría dimitir por vergüenza al elenco completo de una telenovela venezolana?',
+      text: '¿Has escrito "tranqui, no pasa nada jaja" mientras llorabas en posición fetal con una intensidad que haría dimitir por vergüenza al elenco completo de una telenovela de sobremesa?',
       weight: 7,
     },
     {
@@ -16,7 +16,7 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: '¿Tu cerebro convierte un inocente "luego te llamo" en una crisis diplomática de nivel ONU, con cascos azules, portavoces, rueda de prensa y sanciones económicas a tu propia autoestima?',
+      text: '¿Tu cerebro convierte un inocente "luego te llamo" en una crisis de nivel película de catástrofes, con portavoces, rueda de prensa y sanciones económicas a tu propia autoestima?',
       weight: 6,
     },
     {
@@ -24,7 +24,7 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: '¿Una canción triste puede hacerte cancelar planes, apagar las luces, tumbarte en el suelo del salón y sufrir durante horas con la solemnidad litúrgica de un funeral de Estado?',
+      text: '¿Una canción triste puede hacerte cancelar planes, apagar las luces, tumbarte en el suelo del salón y sufrir durante horas con la solemnidad de una ópera trágica de cinco horas?',
       weight: 7,
     },
     {

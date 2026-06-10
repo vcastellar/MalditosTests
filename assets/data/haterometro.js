@@ -3,10 +3,10 @@ window.TEST_CONFIG = {
   testUrl: 'https://elamargometro.com',
 
   questions: [
-    { text: '¿Le encontrarías el "pero" a la cura del cáncer porque la rueda de prensa empezó tres minutos tarde?', weight: 7 },
+    { text: '¿Le encontrarías el "pero" al descubrimiento del teletransporte porque la rueda de prensa empezó tres minutos tarde?', weight: 7 },
     { text: '¿Has comentado "tampoco es para tanto" bajo la foto de un parto, una boda y una oposición aprobada... el mismo día?', weight: 7 },
     { text: '¿Detectas el fallo ajeno antes de que ocurra, como un vidente, pero solo para lo malo y sin pagar autónomos?', weight: 7 },
-    { text: '¿Crees sinceramente que si dejas de quejarte 48 horas, el universo entra en pánico y se desploman tres gobiernos?', weight: 7 },
+    { text: '¿Crees sinceramente que si dejas de quejarte 48 horas, el universo entra en pánico y la gravedad deja de funcionar un rato?', weight: 7 },
     { text: '¿Respondes "ya veremos cuánto dura" cuando alguien anuncia que se casa, como un cuervo posado en la tarta nupcial?', weight: 7 },
     { text: '¿Has destrozado una tortilla de patatas ajena con un informe técnico de 40 minutos que nadie encargó ni pagó?', weight: 7 },
     { text: '¿Cuando alguien está genuinamente feliz, lo miras como quien mira un billete de 500: convencido de que es falso?', weight: 7 },

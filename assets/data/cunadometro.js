@@ -4,11 +4,11 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿Opinas sobre geopolítica nuclear con la seguridad de un embajador cuando tu única fuente es un titular que ni abriste porque "ya te lo imaginas"?',
+      text: '¿Opinas sobre agujeros negros con la seguridad de un premio Nobel cuando tu única fuente es un titular que ni abriste porque "ya te lo imaginas"?',
       weight: 8,
     },
     {
-      text: '¿Empiezas con "yo no soy experto, pero…" y a los 20 minutos has corregido a una neurocirujana, refundado la Seguridad Social y arreglado Oriente Medio con un palillo en la boca?',
+      text: '¿Empiezas con "yo no soy experto, pero…" y a los 20 minutos has corregido a una neurocirujana, rediseñado los motores de los cohetes y arreglado el tráfico de toda la ciudad con un palillo en la boca?',
       weight: 7,
     },
     {
@@ -16,11 +16,11 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: '¿En la comida de Navidad encadenas política monetaria, vacunas y el VAR en el mismo sorbo de café, dejando a tu familia con la mirada perdida de los rehenes?',
+      text: '¿En la comida de Navidad encadenas criptomonedas, agujeros negros y el VAR en el mismo sorbo de café, dejando a tu familia con la mirada perdida de los rehenes?',
       weight: 7,
     },
     {
-      text: '¿Llamas "investigación propia" a tres audios reenviados de un grupo de WhatsApp que se llama "Los Machotes 2.0" y a un meme con la foto torcida?',
+      text: '¿Llamas "investigación propia" a tres audios reenviados de un grupo de WhatsApp que se llama "Los Cracks 2.0" y a un meme con la foto torcida?',
       weight: 7,
     },
     {
@@ -36,7 +36,7 @@ window.TEST_CONFIG = {
       weight: 7,
     },
     {
-      text: '¿Has reenviado audios apocalípticos de un señor gritando desde un coche sin comprobar absolutamente nada, porque verificar es de cobardes?',
+      text: '¿Has reenviado audios apocalípticos de un señor gritando desde un coche que se acaba el aceite de oliva, sin comprobar absolutamente nada, porque verificar es de cobardes?',
       weight: 7,
     },
     {

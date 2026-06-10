@@ -16,11 +16,11 @@ window.TEST_CONFIG = {
       weight: 7,
     },
     {
-      text: '¿Has cruzado la ciudad andando 45 minutos bajo un diluvio bíblico para no pagar 1,50€ de bus, has pillado una pulmonía y aun así lo has contado en la cena como una gesta militar?',
+      text: '¿Has cruzado la ciudad andando 45 minutos bajo un diluvio de récord histórico para no pagar 1,50€ de bus, has llegado hecho una sopa y aun así lo has contado en la cena como una gesta heroica?',
       weight: 6,
     },
     {
-      text: '¿Tu cajón de la cocina es un búnker de servilletas, sobres de azúcar, palillos y ketchups robados con el que podrías abastecer a un país pequeño durante una guerra nuclear?',
+      text: '¿Tu cajón de la cocina es un búnker de servilletas, sobres de azúcar, palillos y ketchups robados con el que podrías abastecer a un país pequeño durante un apagón mundial?',
       weight: 9,
     },
     {

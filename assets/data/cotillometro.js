@@ -12,7 +12,7 @@ window.TEST_CONFIG = {
     { text: '¿Cuando estalla movida en el grupo, te autoproclamas corresponsal de guerra y empiezas a emitir partes cada quince minutos?', weight: 7 },
     { text: '¿Recuerdas quién dijo qué, a qué hora, con qué tono y qué ceja levantó, pero el cumpleaños de tu madre lo llevas en una alarma?', weight: 7 },
     { text: '¿Analizas parejas ajenas con rigor de forense, incluyendo informe pericial, móvil del crimen y reconstrucción de los hechos con muñecos?', weight: 7 },
-    { text: '¿Si hay "tema" y aún no tienes el expediente completo, te sube una ansiedad que solo se cura con dos audios de siete minutos cada uno?', weight: 7 },
+    { text: '¿Si hay "tema" y aún no tienes el expediente completo, te entra un hormigueo que solo se calma con dos audios de siete minutos cada uno?', weight: 7 },
     { text: '¿Sueltas "yo no quería decir nada, peeero..." con la misma sinceridad con la que un tiburón asegura que solo venía a saludar?', weight: 7 },
     { text: '¿Tu radar detecta el conflicto antes del primer mensaje, como esos perros que predicen terremotos, pero especializado en rupturas?', weight: 7 },
     { text: '¿Te han dicho que sabes tanto de vidas ajenas que deberías cobrar derechos de autor, o como mínimo salir en los créditos finales?', weight: 8 },

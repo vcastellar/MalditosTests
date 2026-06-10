@@ -4,7 +4,7 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: '¿En un funeral, si a alguien se le escapa un pedo con reverberación de catedral gótica, tú te pones a estudiar la veta del mármol con tal intensidad que parece que vas a doctorarte en geología antes del responso?',
+      text: '¿En una sala de espera en silencio absoluto, si a alguien se le escapa un pedo con reverberación de auditorio sinfónico, tú te pones a estudiar la veta del suelo con tal intensidad que parece que vas a doctorarte en geología?',
       weight: 5,
     },
     {
@@ -16,7 +16,7 @@ window.TEST_CONFIG = {
       weight: 7,
     },
     {
-      text: '¿Solo dices tacos si te machacas un dedo con la puerta, e incluso entonces pides perdón al aire, al universo y al fantasma de tu abuela por si estaba escuchando?',
+      text: '¿Solo dices tacos si te machacas un dedo con la puerta, e incluso entonces pides perdón al aire, al universo y a tu abuela por si estaba escuchando?',
       weight: 5,
     },
     {
@@ -32,11 +32,11 @@ window.TEST_CONFIG = {
       weight: 6,
     },
     {
-      text: '¿Dices que no tienes prejuicios pero bajo presión te brota un "¡Hay un MÍNIMO de decoro!" tan espontáneo que parece que llevas un cura de bolsillo instalado de fábrica?',
+      text: '¿Dices que no tienes prejuicios pero bajo presión te brota un "¡Hay un MÍNIMO de decoro!" tan espontáneo que parece que llevas un mayordomo victoriano de bolsillo instalado de fábrica?',
       weight: 10,
     },
     {
-      text: '¿Has pensado "esto se está yendo de madre" en una conversación que iba, literalmente, sobre si la tortilla lleva cebolla, como si estuvieran sacrificando una cabra encima de la mesa?',
+      text: '¿Has pensado "esto se está yendo de madre" en una conversación que iba, literalmente, sobre si la tortilla lleva cebolla, como si estuvieran desvalijando un banco encima de la mesa?',
       weight: 7,
     },
     {

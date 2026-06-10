@@ -16,7 +16,7 @@ window.TEST_CONFIG = {
     { text: '¿Defiendes tus gustos personales con "datos objetivos y contrastados", incluyendo el orden moralmente correcto de los ingredientes de un sándwich?', weight: 7 },
     { text: '¿Antes de pronunciar "no tengo ni idea" preferirías improvisar una conferencia entera en modo experto premium, con gráficas inventadas si hace falta?', weight: 7 },
     { text: '¿En el grupo ya te llaman "Wikipedia", pero una Wikipedia poseída que se abre sola a las 3 de la mañana y no tiene botón de cerrar pestaña?', weight: 8 },
-    { text: '¿Has opinado con seguridad absoluta de la Champions, los agujeros negros y la política monetaria del BCE en el mismo almuerzo, entre el primero y el postre?', weight: 8 },
+    { text: '¿Has opinado con seguridad absoluta de la Champions, los agujeros negros y las corrientes oceánicas del Pacífico en el mismo almuerzo, entre el primero y el postre?', weight: 8 },
   ],
 
   scoreMap: {

@@ -4,7 +4,7 @@ window.TEST_CONFIG = {
 
   questions: [
     {
-      text: 'Te meten en una foto de grupo sin tu consentimiento. ¿Eres capaz de sonreír sin que parezca que te están practicando una autopsia en vida y encima sin guantes?',
+      text: 'Te meten en una foto de grupo sin tu consentimiento. ¿Eres capaz de sonreír sin que parezca que te están haciendo una endodoncia sin anestesia y sin cita previa?',
       weight: 5,
     },
     {
@@ -28,7 +28,7 @@ window.TEST_CONFIG = {
       weight: 7,
     },
     {
-      text: 'Suena el hit del verano en el bar. ¿Consigues no levantarte a dar una TED Talk improvisada sobre la decadencia de Occidente que dura tres canciones y media?',
+      text: 'Suena el hit del verano en el bar. ¿Consigues no levantarte a dar una TED Talk improvisada sobre la decadencia de la música moderna que dura tres canciones y media?',
       weight: 8,
     },
     {
@@ -56,7 +56,7 @@ window.TEST_CONFIG = {
       weight: 8,
     },
     {
-      text: 'Compartes ascensor con un tipo que silba contento a las 7:45 de la mañana. ¿Puedes no dar por hecho que silba porque acaba de cometer un delito fiscal o esconde un cadáver en el trastero?',
+      text: 'Compartes ascensor con un tipo que silba contento a las 7:45 de la mañana. ¿Puedes no dar por hecho que silba porque acaba de cometer un delito fiscal o esconde algo muy turbio en el trastero?',
       weight: 7,
     },
   ],
