@@ -74,6 +74,12 @@
     </script>
   </head>
   <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="site-header-logo" href="../../index.html">🧪 <span>Malditos</span> Tests</a>
+      </div>
+    </header>
+
     <div class="noise"></div>
     <main class="layout">
       <section class="hero card">
@@ -85,7 +91,6 @@
           <p>Responde las 14 preguntas con <strong>SÍ</strong>, <strong>A veces</strong> o <strong>NO</strong>. Cuantos más <strong>SÍ</strong>, mayor puntuación.</p>
           <p>Si respondes <strong>SÍ</strong> a todo, alcanzas la puntuación máxima de <strong>100 puntos</strong>.</p>
           <button id="start-test" class="primary-btn" type="button">Iniciar el test</button>
-          <p class="home-link-wrap"><a class="home-link" href="../../index.html">← Volver a la home</a></p>
         </div>
       </section>
       <section class="quiz card"><div class="quiz-header"><div><p class="eyebrow">Test oficial del departamento de rumores</p><h2>Responde en orden: todas las preguntas, una debajo de otra</h2></div><p id="device-hint" class="device-hint" aria-live="polite"></p></div><p id="quiz-status" class="quiz-status">Pulsa <strong>Iniciar el test</strong> para empezar.</p><form id="amargometro-form" class="questions"></form><div class="quiz-actions"><button id="submit-test" class="primary-btn" type="button" disabled>Calcular mi puntuación cotilla</button></div></section>
