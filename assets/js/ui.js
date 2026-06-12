@@ -56,6 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
     { slug: 'sabelotodometro', name: 'Sabelotodómetro', href: '../../tests/sabelotodometro/' },
     { slug: 'haterometro', name: 'Haterómetro', href: '../../tests/haterometro/' },
     { slug: 'cotillometro', name: 'Cotillómetro', href: '../../tests/cotillometro/' },
+    { slug: 'antisocial', name: 'Test del Antisocial', href: '../../tests/antisocial/' },
+    { slug: 'empanado', name: 'Test del Empanado Digital', href: '../../tests/empanado/' },
+    { slug: 'caosometro', name: 'Caosómetro', href: '../../tests/caosometro/' },
   ];
 
   // --- Utilidades ---
