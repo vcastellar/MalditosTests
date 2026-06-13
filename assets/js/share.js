@@ -37,7 +37,9 @@
     if (!lastResult) return '';
 
     const heading = document.querySelector('h1');
-    const testName = heading ? heading.textContent.trim() : 'Malditos Tests';
+    const testName = heading
+      ? heading.dataset.shareName || heading.textContent.trim()
+      : 'Malditos Tests';
 
     return `Mi resultado en ${testName}: ${lastResult.title} (${lastResult.category}) con ${lastResult.score}/${totalMaxScore} puntos. Haz el test aquí: ${testUrl}`;
   }

@@ -291,6 +291,34 @@
         max-width: 46ch;
       }
 
+      .share-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+        margin-top: 1rem;
+      }
+
+      .share-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 999px;
+        padding: 0.6rem 1rem;
+        font-weight: 700;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--border);
+        transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+      }
+
+      .share-link:hover {
+        transform: translateY(-2px);
+        border-color: rgba(255, 138, 61, 0.45);
+        background: rgba(255, 138, 61, 0.08);
+      }
+
       footer {
         text-align: center;
         color: var(--muted);
@@ -382,9 +410,9 @@
     <main class="layout">
       <section class="card">
         <p class="eyebrow">Bienvenido al laboratorio del caos</p>
-        <h1>Malditos Tests</h1>
+        <h1>Malditos Tests: tests de personalidad gamberros</h1>
         <p class="lead">
-          Bienvenido a Malditos Tests, la colección de tests de personalidad más gamberra y
+          Bienvenido a Malditos Tests, la colección de tests y quizzes de personalidad más gamberra y
           divertida de Internet. Cada prueba de personalidad es gratuita y mide los rasgos y
           factores que definen qué tipo de persona eres. Descubre si eres un gruñón profesional con
           el Amargómetro, un opinador incansable con el Cuñadómetro o un maestro de la
@@ -605,6 +633,49 @@
               Ver sus libros en Amazon →
             </a>
           </div>
+        </div>
+      </section>
+
+      <section class="card" aria-label="Compartir Malditos Tests en redes sociales">
+        <p class="eyebrow">Comparte el caos</p>
+        <h2>Comparte Malditos Tests en redes sociales</h2>
+        <p class="lead">
+          ¿Te ha hecho gracia? Reenvía estos tests de personalidad a quien creas que necesita un
+          diagnóstico urgente. Compártelos en un solo clic por WhatsApp, Facebook, X o Telegram.
+        </p>
+        <div class="share-row">
+          <a
+            class="share-link"
+            href="https://wa.me/?text=Descubre%20qu%C3%A9%20clase%20de%20criatura%20eres%20con%20los%20tests%20de%20personalidad%20gamberros%20de%20Malditos%20Tests%20https%3A%2F%2Fmalditostests.com%2F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💬 WhatsApp
+          </a>
+          <a
+            class="share-link"
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmalditostests.com%2F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            👍 Facebook
+          </a>
+          <a
+            class="share-link"
+            href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmalditostests.com%2F&text=Descubre%20qu%C3%A9%20clase%20de%20criatura%20eres%20con%20los%20tests%20de%20personalidad%20gamberros%20de%20Malditos%20Tests"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ✖️ X (Twitter)
+          </a>
+          <a
+            class="share-link"
+            href="https://t.me/share/url?url=https%3A%2F%2Fmalditostests.com%2F&text=Descubre%20qu%C3%A9%20clase%20de%20criatura%20eres%20con%20los%20tests%20de%20personalidad%20gamberros%20de%20Malditos%20Tests"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ✈️ Telegram
+          </a>
         </div>
       </section>
     </main>
